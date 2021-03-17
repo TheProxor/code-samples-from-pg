@@ -1,0 +1,1312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe65445dc4f97429780ea54412f5f299, type: 3}
+  m_Name: SeasonEventVisualSettings
+  m_EditorClassIdentifier: 
+  materialBlendAnimation:
+    duration: 0.35
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  plankGraphicColorAnimation:
+    duration: 0.35
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {r: 0.07450981, g: 0.3019608, b: 0.015686275, a: 1}
+    endValue: {r: 0.5137255, g: 0.21960784, b: 0.7058824, a: 1}
+  barBonusLevelSprite: {fileID: 21300000, guid: d85e288b116d84bdcb38a4187ca6777b,
+    type: 3}
+  iconHideAlphaAnimation:
+    duration: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.18
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  iconShowAlphaAnimation:
+    duration: 0.8
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.5
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  iconShowScaleAnimationIn:
+    duration: 0.2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.85
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 1, y: 1, z: 1}
+    endValue: {x: 1.4, y: 1.4, z: 1}
+  iconShowScaleAnimationOut:
+    duration: 0.2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.05
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 1, y: 1, z: 1}
+    endValue: {x: 1.4, y: 1.4, z: 1}
+  headerData:
+  - petSkinType: 0
+    headerText: 
+    previewSkeletonGraphic: {fileID: 11400000, guid: 4c04d1d1e79c00348af17e03129fa560,
+      type: 2}
+    commonRewardImage: {fileID: 21300000, guid: 82ec7d507178b44d194582ffdcae2004,
+      type: 3}
+  - petSkinType: 1
+    headerText: loc_cat_challenge
+    previewSkeletonGraphic: {fileID: 11400000, guid: 4c04d1d1e79c00348af17e03129fa560,
+      type: 2}
+    commonRewardImage: {fileID: 21300000, guid: 93269b399246844bdaf3a800233c7bfa,
+      type: 3}
+  - petSkinType: 2
+    headerText: loc_burn_challenge
+    previewSkeletonGraphic: {fileID: 11400000, guid: 2ca245d2a263ea14f962b8babc7ed01f,
+      type: 2}
+    commonRewardImage: {fileID: 21300000, guid: e461aa3fefc1543aaabfcce60c9b6fd2,
+      type: 3}
+  - petSkinType: 3
+    headerText: loc_karamba_challenge
+    previewSkeletonGraphic: {fileID: 11400000, guid: 64a439b7226feab40863c4fe45ea7b05,
+      type: 2}
+    commonRewardImage: {fileID: 21300000, guid: ca02dc39e70fd491b9d9572e8bd1f5a7,
+      type: 3}
+  commonRewardSprite: {fileID: 21300000, guid: 9e1fcb0a2fca541c0ad4e5cfbaeccd4a, type: 3}
+  commonRewardHeaderKey: loc_gems_challenge
+  uiLevelElementsData:
+  - minIndexForSprite: 0
+    outlineColor: {r: 0.6156863, g: 0.11764706, b: 0.16470589, a: 1}
+    sprite: {fileID: 21300000, guid: 6a3d39dd2e76746aa8fc0518bd5c8a26, type: 3}
+  - minIndexForSprite: 5
+    outlineColor: {r: 0.34901962, g: 0.22352941, b: 0.7254902, a: 1}
+    sprite: {fileID: 21300000, guid: 73fddf81770d74a5a8f462c88172a6fc, type: 3}
+  - minIndexForSprite: 10
+    outlineColor: {r: 0.6862745, g: 0.25490198, b: 0.09019608, a: 1}
+    sprite: {fileID: 21300000, guid: 6296b9e3865294b65a615dc7d1cf22dc, type: 3}
+  - minIndexForSprite: 15
+    outlineColor: {r: 0.34901962, g: 0.22352941, b: 0.7254902, a: 1}
+    sprite: {fileID: 21300000, guid: 2c0a5d269714444e4993a5cb9809b71f, type: 3}
+  uiElementsStateData:
+  - eventRewardtype: 1
+    stateSpriteData:
+    - state: 1
+      textOutlineColor: {r: 0.28235295, g: 0.050980393, b: 0.4862745, a: 1}
+      back: {fileID: 21300000, guid: 4bddf0e8dece043a6abf42a304140a8b, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 6035c926046c24eda9e114614b16affe,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: 51216e2048649437ab61e3cc00330c7c,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 9bf3649355cbb447ab84d6f514db194a,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: 2adf5dd85b258464a9586d9dffff8d56,
+        type: 3}
+      plankText: 
+    - state: 2
+      textOutlineColor: {r: 0.28235295, g: 0.050980393, b: 0.4862745, a: 1}
+      back: {fileID: 21300000, guid: 9a7372625c994461da6993949a3de202, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 3
+      textOutlineColor: {r: 0.28235295, g: 0.050980393, b: 0.4862745, a: 1}
+      back: {fileID: 21300000, guid: 9a7372625c994461da6993949a3de202, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 4
+      textOutlineColor: {r: 0.28235295, g: 0.050980393, b: 0.4862745, a: 1}
+      back: {fileID: 21300000, guid: 9a7372625c994461da6993949a3de202, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 5
+      textOutlineColor: {r: 0.28235295, g: 0.050980393, b: 0.4862745, a: 1}
+      back: {fileID: 21300000, guid: 9a7372625c994461da6993949a3de202, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 6
+      textOutlineColor: {r: 0.28235295, g: 0.050980393, b: 0.4862745, a: 1}
+      back: {fileID: 21300000, guid: 9a7372625c994461da6993949a3de202, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    announcerBackgroundSprite: {fileID: 21300000, guid: 3830bd90c781e49e5894227494f21f43,
+      type: 3}
+    announcerData:
+      moveAnimation:
+        duration: 0.3
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: {x: 0, y: 0, z: 0}
+        endValue: {x: 0, y: 54, z: 0}
+      alphaAnimation:
+        duration: 1
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 1.7333313
+            outSlope: 1.7333313
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.093235545
+          - serializedVersion: 3
+            time: 0.5
+            value: 1
+            inSlope: 1.365984
+            outSlope: -0.021245299
+            tangentMode: 1
+            weightedMode: 0
+            inWeight: 0.008029878
+            outWeight: 0.08590579
+          - serializedVersion: 3
+            time: 0.8
+            value: 1
+            inSlope: 0.020407211
+            outSlope: 0.020407211
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.08943379
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: -5.5150356
+            outSlope: -5.5150356
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.103053756
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: 0
+        endValue: 1
+      scaleAnimation:
+        duration: 0.5
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: {x: 1, y: 1, z: 1}
+        endValue: {x: 1, y: 1, z: 1}
+    canNotClaimAnnouncerMoveOffset: {x: 0, y: 54, z: 0}
+  - eventRewardtype: 2
+    stateSpriteData:
+    - state: 1
+      textOutlineColor: {r: 0.28235295, g: 0.050980393, b: 0.4862745, a: 1}
+      back: {fileID: 21300000, guid: 0f637f4d9f6d844efb896daf870d5785, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 6035c926046c24eda9e114614b16affe,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: 51216e2048649437ab61e3cc00330c7c,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 9bf3649355cbb447ab84d6f514db194a,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: 2adf5dd85b258464a9586d9dffff8d56,
+        type: 3}
+      plankText: 
+    - state: 2
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 3
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 4
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 5
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 6
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    announcerBackgroundSprite: {fileID: 21300000, guid: d3de9dd5bdef44469b251dfb4f68334f,
+      type: 3}
+    announcerData:
+      moveAnimation:
+        duration: 0.3
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: {x: 0, y: 0, z: 0}
+        endValue: {x: 0, y: 54, z: 0}
+      alphaAnimation:
+        duration: 1
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 1.7333313
+            outSlope: 1.7333313
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.093235545
+          - serializedVersion: 3
+            time: 0.5
+            value: 1
+            inSlope: 1.365984
+            outSlope: -0.021245299
+            tangentMode: 1
+            weightedMode: 0
+            inWeight: 0.008029878
+            outWeight: 0.08590579
+          - serializedVersion: 3
+            time: 0.8
+            value: 1
+            inSlope: 0.020407211
+            outSlope: 0.020407211
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.08943379
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: -5.5150356
+            outSlope: -5.5150356
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.103053756
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: 0
+        endValue: 1
+      scaleAnimation:
+        duration: 0.5
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: {x: 1, y: 1, z: 1}
+        endValue: {x: 1, y: 1, z: 1}
+    canNotClaimAnnouncerMoveOffset: {x: 0, y: 54, z: 0}
+  - eventRewardtype: 3
+    stateSpriteData:
+    - state: 1
+      textOutlineColor: {r: 0.28235295, g: 0.050980393, b: 0.4862745, a: 1}
+      back: {fileID: 21300000, guid: 0f637f4d9f6d844efb896daf870d5785, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 6035c926046c24eda9e114614b16affe,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: 51216e2048649437ab61e3cc00330c7c,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 9bf3649355cbb447ab84d6f514db194a,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: 2adf5dd85b258464a9586d9dffff8d56,
+        type: 3}
+      plankText: 
+    - state: 2
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 3
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 4
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 5
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 6
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    announcerBackgroundSprite: {fileID: 21300000, guid: 3830bd90c781e49e5894227494f21f43,
+      type: 3}
+    announcerData:
+      moveAnimation:
+        duration: 0.3
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: {x: 0, y: 0, z: 0}
+        endValue: {x: 0, y: 120, z: 0}
+      alphaAnimation:
+        duration: 1
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 1.7333313
+            outSlope: 1.7333313
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.093235545
+          - serializedVersion: 3
+            time: 0.5
+            value: 1
+            inSlope: 1.365984
+            outSlope: -0.021245299
+            tangentMode: 1
+            weightedMode: 0
+            inWeight: 0.008029878
+            outWeight: 0.08590579
+          - serializedVersion: 3
+            time: 0.8
+            value: 1
+            inSlope: 0.020407211
+            outSlope: 0.020407211
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.08943379
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: -5.5150356
+            outSlope: -5.5150356
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.103053756
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: 0
+        endValue: 1
+      scaleAnimation:
+        duration: 0.5
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: {x: 1, y: 1, z: 1}
+        endValue: {x: 1, y: 1, z: 1}
+    canNotClaimAnnouncerMoveOffset: {x: 0, y: 120, z: 0}
+  - eventRewardtype: 4
+    stateSpriteData:
+    - state: 1
+      textOutlineColor: {r: 0.28235295, g: 0.050980393, b: 0.4862745, a: 1}
+      back: {fileID: 21300000, guid: 0f637f4d9f6d844efb896daf870d5785, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 6035c926046c24eda9e114614b16affe,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: 51216e2048649437ab61e3cc00330c7c,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 9bf3649355cbb447ab84d6f514db194a,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: 2adf5dd85b258464a9586d9dffff8d56,
+        type: 3}
+      plankText: 
+    - state: 2
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 3
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 4
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 5
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    - state: 6
+      textOutlineColor: {r: 0.42352942, g: 0.14117648, b: 0.03529412, a: 1}
+      back: {fileID: 21300000, guid: 7adf0231770bc49a49c0d6c311d76565, type: 3}
+      forcemeterRewardSprite: {fileID: 21300000, guid: 1920610fce43e47eabd904ade2dd3271,
+        type: 3}
+      spinRouletteCashRewardSprite: {fileID: 21300000, guid: c32ba7a66f92a437f807f615478492de,
+        type: 3}
+      spinRouletteSkinRewardSprite: {fileID: 21300000, guid: 4d633d94e5ab444a180b8fcb20cd2777,
+        type: 3}
+      spinRouletteWaiponRewardSprite: {fileID: 21300000, guid: fdc7e1db5bd854bfd869197752f1d589,
+        type: 3}
+      plankText: 
+    announcerBackgroundSprite: {fileID: 0}
+    announcerData:
+      moveAnimation:
+        duration: 0
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: {x: 0, y: 0, z: 0}
+        endValue: {x: 0, y: 0, z: 0}
+      alphaAnimation:
+        duration: 0
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: 0
+        endValue: 0
+      scaleAnimation:
+        duration: 0
+        curve:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        delay: 0
+        loop: 0
+        loopType: 0
+        shouldUseUnscaledDeltaTime: 0
+        beginValue: {x: 0, y: 0, z: 0}
+        endValue: {x: 0, y: 0, z: 0}
+    canNotClaimAnnouncerMoveOffset: {x: 0, y: 0, z: 0}
+  currencyIconData:
+  - eventRewardtypes: 01000000
+    type: 1
+    stateSpriteData:
+    - states: 01000000
+      sprite: {fileID: 21300000, guid: 439ad27d6405946c4bb6d5e247ab7e64, type: 3}
+    - states: 03000000020000000400000005000000
+      sprite: {fileID: 21300000, guid: 12fded30258e24e7fa35dc7cab2ebda3, type: 3}
+  - eventRewardtypes: 01000000
+    type: 2
+    stateSpriteData:
+    - states: 01000000
+      sprite: {fileID: 21300000, guid: 37ff60221b25b421d88d6fe8d63f7c69, type: 3}
+    - states: 03000000020000000400000005000000
+      sprite: {fileID: 21300000, guid: 499cfa9e4b20140659ababdf865f0ab4, type: 3}
+  - eventRewardtypes: 01000000
+    type: 4
+    stateSpriteData:
+    - states: 01000000
+      sprite: {fileID: 21300000, guid: 0d88f450b34aa4a569ec04ba9ce0cea3, type: 3}
+    - states: 03000000020000000400000005000000
+      sprite: {fileID: 21300000, guid: 01a98982f0fa24445a8e52c6c728dbb6, type: 3}
+  - eventRewardtypes: 01000000
+    type: 5
+    stateSpriteData:
+    - states: 01000000
+      sprite: {fileID: 21300000, guid: 257b0a4a4b65343d79ba47f46c5d43bd, type: 3}
+    - states: 03000000020000000400000005000000
+      sprite: {fileID: 21300000, guid: c097b30d777d64fd49b139d54ecaed15, type: 3}
+  - eventRewardtypes: 02000000
+    type: 1
+    stateSpriteData:
+    - states: 01000000
+      sprite: {fileID: 21300000, guid: 26f974d6970b4405e9a348ae47e35255, type: 3}
+    - states: 0300000002000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: cfa826127121b48eb86f8977282f2f86, type: 3}
+  - eventRewardtypes: 02000000
+    type: 2
+    stateSpriteData:
+    - states: 01000000
+      sprite: {fileID: 21300000, guid: 12f91df015b7544a98cf9ee1d2fd91b7, type: 3}
+    - states: 0300000002000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: 8e0c81b84c2fc40879d0fb96456d3c37, type: 3}
+  - eventRewardtypes: 02000000
+    type: 4
+    stateSpriteData:
+    - states: 01000000
+      sprite: {fileID: 21300000, guid: a3611665294e8448092bfe27cc48124e, type: 3}
+    - states: 0300000002000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: ca4d19c776ec54222b53f4c38c324bd5, type: 3}
+  - eventRewardtypes: 02000000
+    type: 5
+    stateSpriteData:
+    - states: 01000000
+      sprite: {fileID: 21300000, guid: d4607a2184f8e47b39db6aa913fcfb44, type: 3}
+    - states: 0300000002000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: 9de837cfd1eef42f8a310dbae9f53b5e, type: 3}
+  - eventRewardtypes: 03000000
+    type: 2
+    stateSpriteData:
+    - states: 01000000
+      sprite: {fileID: 21300000, guid: 8e0c81b84c2fc40879d0fb96456d3c37, type: 3}
+    - states: 0300000002000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: 8e0c81b84c2fc40879d0fb96456d3c37, type: 3}
+  petSkinsIconData:
+  - eventRewardtype: 1
+    type: 1
+    stateSpriteData:
+    - states: 010000000200000003000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: 6ca1447622404499c9c71bec20183836, type: 3}
+  - eventRewardtype: 2
+    type: 1
+    stateSpriteData:
+    - states: 010000000200000003000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: 6ca1447622404499c9c71bec20183836, type: 3}
+  - eventRewardtype: 1
+    type: 2
+    stateSpriteData:
+    - states: 010000000200000003000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: f01f2d128a6df47358940e9e8c3fcb01, type: 3}
+  - eventRewardtype: 2
+    type: 2
+    stateSpriteData:
+    - states: 010000000200000003000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: f01f2d128a6df47358940e9e8c3fcb01, type: 3}
+  - eventRewardtype: 1
+    type: 3
+    stateSpriteData:
+    - states: 010000000200000003000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: 9e6f2cad9ec464e19ab9af5d879a297c, type: 3}
+  - eventRewardtype: 2
+    type: 3
+    stateSpriteData:
+    - states: 010000000200000003000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: 9e6f2cad9ec464e19ab9af5d879a297c, type: 3}
+  - eventRewardtype: 3
+    type: 1
+    stateSpriteData:
+    - states: 010000000200000003000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: 6ca1447622404499c9c71bec20183836, type: 3}
+  - eventRewardtype: 3
+    type: 2
+    stateSpriteData:
+    - states: 010000000200000003000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: f01f2d128a6df47358940e9e8c3fcb01, type: 3}
+  - eventRewardtype: 3
+    type: 3
+    stateSpriteData:
+    - states: 010000000200000003000000040000000500000006000000
+      sprite: {fileID: 21300000, guid: 9e6f2cad9ec464e19ab9af5d879a297c, type: 3}
+  plankLocalizationKey: loc_claim
+  previewGemsSprite: {fileID: 21300000, guid: 79f03fd6e2a12467eaa5f0de5b4cab10, type: 3}
+  shineAlfaAnimation:
+    duration: 0.2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {r: 1, g: 1, b: 1, a: 1}
+    endValue: {r: 1, g: 1, b: 1, a: 0}
+  laspScaleAnimation:
+    duration: 0.25
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 1, y: 1, z: 1}
+    endValue: {x: 1.3, y: 1.3, z: 1}
+  fillBarAnimation:
+    duration: 0.85
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.7126865
+        outSlope: 1.7126865
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.049382716
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.4217287
+        outSlope: 0.4217287
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.058984935
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.2
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 0.75
+  barTrailAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 20021.512, y: 51.222576, z: 100}
+    endValue: {x: 20000, y: -46.152374, z: 100}
+  lockLineMoveAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.5
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 0, y: -32.4, z: 0}
+    endValue: {x: 0, y: 311, z: 0}
+  tutorialDelayOffset: -1
+  rewardElementTutorialDelay: 1.5
+  tutorialStartDelayAfterBarFilled: 1.7
+  elementsStateAnimationDelayAfterBarFilled: 2.1
+  lockLineAnimationDelayAfterBarFilled: 0.08
+  progressBarResumeDelayAfterBarFilled: 3.2
+  lockLineMoveDelayAfterAnimation: 1.5
+  tutorialAlphaAnimation:
+    duration: 0.3
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  scrollContentButtonUpThreshold: {x: 100, y: 100}
+  seasonPassAdsHeaderKey: loc_sp_ads_header
+  seasonPassIapHeaderKey: loc_sp_iap_header

@@ -1,0 +1,387 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7202f4adafbb84d7d9f6fa00e53bcf39, type: 3}
+  m_Name: BonusLevelSettings
+  m_EditorClassIdentifier: 
+  commonOutlineWidth: 55
+  pinataOutlineWidth: 40
+  outlineMaterial: {fileID: 2100000, guid: bcdeee4306fca4061ac150a135fb9cb3, type: 2}
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineThresholdAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 1
+    loopType: 1
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0.1
+    endValue: 1
+  spriteScaleAnimation:
+    duration: 0.2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 0, y: 0, z: 0}
+    endValue: {x: 1, y: 1, z: 1}
+  imageScaleAnimationSubscription:
+    duration: 0.2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 0, y: 0, z: 0}
+    endValue: {x: 1, y: 1, z: 1}
+  diceFrozenSprite: {fileID: 21300000, guid: a3e08627f526548bf8b4a3963e0bd0fb, type: 3}
+  pinataFrozenSprite: {fileID: 21300000, guid: 65f94339f66564506a16a8a4254a28ba, type: 3}
+  petFrozenSprite: {fileID: 21300000, guid: c811a50d65ede994395aefa704fe526b, type: 3}
+  visualSpritesData:
+  - sprite: {fileID: 21300000, guid: 3d8dc00b1441d4bf9b67a3b5e77273ab, type: 3}
+    spriteScale: {x: 1, y: 1, z: 1}
+    type: 010204
+    shapeType: 2
+    sizeType: 3
+  - sprite: {fileID: 21300000, guid: 3d8dc00b1441d4bf9b67a3b5e77273ab, type: 3}
+    spriteScale: {x: 0.67, y: 0.67, z: 0.67}
+    type: 010204
+    shapeType: 2
+    sizeType: 2
+  - sprite: {fileID: 21300000, guid: 3d8dc00b1441d4bf9b67a3b5e77273ab, type: 3}
+    spriteScale: {x: 0.37, y: 0.37, z: 0.37}
+    type: 010204
+    shapeType: 2
+    sizeType: 1
+  - sprite: {fileID: 21300000, guid: f1f22989e576d438189abd30ff41f8d2, type: 3}
+    spriteScale: {x: 1, y: 1, z: 1}
+    type: 010204
+    shapeType: 1
+    sizeType: 3
+  - sprite: {fileID: 21300000, guid: f1f22989e576d438189abd30ff41f8d2, type: 3}
+    spriteScale: {x: 0.67, y: 0.67, z: 0.67}
+    type: 010204
+    shapeType: 1
+    sizeType: 2
+  - sprite: {fileID: 21300000, guid: f1f22989e576d438189abd30ff41f8d2, type: 3}
+    spriteScale: {x: 0.35, y: 0.35, z: 0.35}
+    type: 010204
+    shapeType: 1
+    sizeType: 1
+  - sprite: {fileID: 21300000, guid: e40035cdadd584463994de5e6770ef20, type: 3}
+    spriteScale: {x: 1, y: 1, z: 1}
+    type: 010204
+    shapeType: 3
+    sizeType: 3
+  - sprite: {fileID: 21300000, guid: f2b8294087fa949c49e8f81b25a2f753, type: 3}
+    spriteScale: {x: 1, y: 1, z: 1}
+    type: 010204
+    shapeType: 3
+    sizeType: 2
+  - sprite: {fileID: 21300000, guid: cd348e9fcc47a432d92f3cfa55566d88, type: 3}
+    spriteScale: {x: 1, y: 1, z: 1}
+    type: 010204
+    shapeType: 3
+    sizeType: 1
+  - sprite: {fileID: 21300000, guid: d8921c9929b6941cebb6876d65cb549b, type: 3}
+    spriteScale: {x: 1, y: 1, z: 1}
+    type: 05
+    shapeType: 1
+    sizeType: 1
+  - sprite: {fileID: 21300000, guid: df67d6ee4338d4b6fa8b19414fac9b6c, type: 3}
+    spriteScale: {x: 1, y: 1, z: 1}
+    type: 05
+    shapeType: 1
+    sizeType: 2
+  - sprite: {fileID: 21300000, guid: 78708ccc2ece84786b2c14cf2ad87b2c, type: 3}
+    spriteScale: {x: 1, y: 1, z: 1}
+    type: 05
+    shapeType: 1
+    sizeType: 3
+  - sprite: {fileID: 21300000, guid: a3e08627f526548bf8b4a3963e0bd0fb, type: 3}
+    spriteScale: {x: 1, y: 1, z: 1}
+    type: 05
+    shapeType: 1
+    sizeType: 2
+  visualFxData:
+  - fxKey: FxGUIBonusLevelAppearIceSmall
+    shapeType: 01020405
+    sizeType: 01
+  - fxKey: FxGUIBonusLevelAppearIceMedium
+    shapeType: 01020405
+    sizeType: 02
+  - fxKey: FxGUIBonusLevelAppearIceBig
+    shapeType: 01020405
+    sizeType: 02
+  - fxKey: FxGUIBonusLevelAppearIceSPlank
+    shapeType: 03
+    sizeType: 01
+  - fxKey: FxGUIBonusLevelAppearIceMPlank
+    shapeType: 03
+    sizeType: 02
+  - fxKey: FxGUIBonusLevelAppearIceSPlank
+    shapeType: 03
+    sizeType: 03
+  - fxKey: FxGUIBonusLevelAppearIceBigJeremy
+    shapeType: 01
+    sizeType: 03
+  destroyFxData:
+  - currencyType: 1
+    fxKey: FxGUIBonusLevelExplosionCoins
+  - currencyType: 2
+    fxKey: FxGUIBonusLevelExplosionGems
+  - currencyType: 5
+    fxKey: FxGUIBonusLevelExplosionDices
+  - currencyType: 4
+    fxKey: FxGUIBonusLevelExplosionHammers
+  commonDestroyFx: FxGUIBonusLevelExplosionIce
+  spawnDelay: 0.85
+  decelerationDelay: 1
+  decelerationDuration: 0.35
+  spawnYPosition: -150
+  minTimeScale: 0.15
+  timeScaleChangeDuration: 0.3
+  timeScaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  levelEndDelay: 2
+  scaleAnimation:
+    duration: 0.25
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -0.026256736
+        outSlope: -0.026256736
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.027561102
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 3.0511982
+        outSlope: 3.0511982
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.01456058
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 1
+    beginValue: 1
+    endValue: 0
+  positionYAnnouncerAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 6.2264147
+        outSlope: 6.2264147
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.056817867
+      - serializedVersion: 3
+        time: 0.3666687
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 1
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 25
+  alphaAnnouncerAnimation:
+    duration: 0.7
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.581164
+        value: 0.20921521
+        inSlope: 1.2126648
+        outSlope: 1.2126648
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 1
+    shouldUseUnscaledDeltaTime: 1
+    beginValue: 1
+    endValue: 0
+  delayBeforeCurrencyUpdate: 0
+  currencyUpdateDuration: 0.2
+  lineClearDuration: 1
+  mandatoryRewardAutoCollectDelay: 3.5
+  projectileDestroyAnimation:
+    duration: 0.3
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.55
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 1, y: 1, z: 1}
+    endValue: {x: 0, y: 0, z: 1}

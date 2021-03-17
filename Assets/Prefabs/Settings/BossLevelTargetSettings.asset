@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 256e7402d019749d3bbe30a9abbba96a, type: 3}
+  m_Name: BossLevelTargetSettings
+  m_EditorClassIdentifier: 
+  data:
+  - key: 0
+    visualSprite: {fileID: 0}
+    trailFxKey: 
+  - key: 1
+    visualSprite: {fileID: 21300000, guid: 3002ab00c41f04f3594f0dd75e166c1a, type: 3}
+    trailFxKey: FxBossRocketRedTrail
+  - key: 2
+    visualSprite: {fileID: 21300000, guid: 0879857a58d624f00a1f22edf46d7959, type: 3}
+    trailFxKey: FxBossRocketBlueTrail
+  - key: 3
+    visualSprite: {fileID: 21300000, guid: 64a960d7071964b9a838b451e883234b, type: 3}
+    trailFxKey: FxBossRocketGreenTrail
+  - key: 4
+    visualSprite: {fileID: 0}
+    trailFxKey: 
+  asset: {fileID: 11400000, guid: 0007835360e6299478483fcf6cb89729, type: 2}
+  skins:
+  - default
+  skinWithBoundingBoxes: default
+  firstComeDuration: 2.8
+  firstComeDelay: 0.1
+  comeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  comeDuration: 0.75
+  comeDelay: 0.6
+  leaveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  leaveDuration: 2
+  leaveDelay: 1
+  drawTrajectoriesFirstDelay: 1.5
+  drawTrajectoriesDelay: 1.1
+  drawTrajectoriesTimescaleMultiply: 2.5
+  defeatSoundDelay: 1.5
+  defeatExplodeSoundsDelay:
+  - 1.4
+  - 1.62
+  - 1.55
+  startDefeatDelay: 0
+  explosionDelay: 0.2
+  defeatDelay: 2.15
+  defeatColorAnimation:
+    duration: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.5
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 1
+    beginValue: {r: 1, g: 1, b: 1, a: 1}
+    endValue: {r: 1, g: 0.046511628, b: 0, a: 1}
+  defeatMoveToCenterAnimation:
+    duration: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 1
+    beginValue: {x: -5.332778, y: 46.90001, z: 0}
+    endValue: {x: -4.2030053, y: 36.964035, z: 0}
+  defeatMoveToCenterDistance: 10
+  bossFadeAnimation:
+    duration: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {r: 1, g: 1, b: 1, a: 1}
+    endValue: {r: 1, g: 1, b: 1, a: 1}
+  bossAppearAnimation:
+    duration: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {r: 1, g: 1, b: 1, a: 1}
+    endValue: {r: 1, g: 1, b: 1, a: 1}
+  hitmastersBossAsset: {fileID: 11400000, guid: ff06aa6c58a9e5e4fac45962d47f6bb3,
+    type: 2}
+  hitmastersBossSkins:
+  - Charactars/Characters_Biker
+  - Charactars/Characters_Johan
+  - Charactars/Characters_Nikolas
+  - Charactars/Characters_Pirate
+  - Charactars/Characters_Prisoner
+  - Charactars/Characters_Prisoner_X
+  hitmastersBossSkinWithoutBoundingBoxes: default

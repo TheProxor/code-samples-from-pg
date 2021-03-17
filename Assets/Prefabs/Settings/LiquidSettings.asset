@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8087d83bc3f478b9b13d5197037d66, type: 3}
+  m_Name: LiquidSettings
+  m_EditorClassIdentifier: 
+  idleImpulsMagnitude: 0.15
+  idleImpulsPeriod: 0.15
+  falledObjectImpulsMultiplier: 0.0001
+  spring: 0.0065
+  damping: 0.065
+  spread: 0.0045
+  passesCount: 8
+  distanceBetweenPoints: 8.4
+  commonBezieMagnitude: 1.5
+  dragData:
+  - type: 2
+    additionalLinearDrag: 30
+    additionalAngularDrag: 5
+  - type: 7
+    additionalLinearDrag: 30
+    additionalAngularDrag: 5
+  - type: 3
+    additionalLinearDrag: 30
+    additionalAngularDrag: 5
+  fullyCoveredObjectsDestoyDelay: 0.5
+  levelTargetDestoyDelay: 0.5
+  visual:
+  - type: 1
+    textureColor: {r: 0.514151, g: 1, b: 0.24313726, a: 0.7058824}
+    projectileCollisionEffectKey: FxLiquidAcidProjectileCollision
+  - type: 2
+    textureColor: {r: 0.9339623, g: 0.23366289, b: 0, a: 0.7058824}
+    projectileCollisionEffectKey: FxLiquidLavalProjectileCollision

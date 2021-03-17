@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4563662341585515007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7250209686870795511}
+  - component: {fileID: 8108950253475629243}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7250209686870795511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4563662341585515007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8108950253475629243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4563662341585515007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c169d78bb33a43698daf1371f68b8c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  containers:
+  - category: 2
+    itemsContainer: {fileID: 11400000, guid: 766e6f0e174984fcfa275dd81a89bfdc, type: 2}
+    categoryMixerGroup: {fileID: 24300002, guid: a8f30a5cd512e482ca1769dbfdfa5c93,
+      type: 2}
+  - category: 3
+    itemsContainer: {fileID: 11400000, guid: 6ae6603dc6e1f472a9172f0f9966fca3, type: 2}
+    categoryMixerGroup: {fileID: 24300002, guid: a8f30a5cd512e482ca1769dbfdfa5c93,
+      type: 2}
+  - category: 1
+    itemsContainer: {fileID: 11400000, guid: 26a07cf4e59bf4bb6bc007dd5d24b416, type: 2}
+    categoryMixerGroup: {fileID: 24300002, guid: a8f30a5cd512e482ca1769dbfdfa5c93,
+      type: 2}
+  isDebugging: 0

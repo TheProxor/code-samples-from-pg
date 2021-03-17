@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6ec79fe080f4fa78524f84eb520bc9, type: 3}
+  m_Name: LaserSettings
+  m_EditorClassIdentifier: 
+  defaultRayDistance: 550
+  shotRendererWidth: 5
+  collisionFxOffset: 0.1
+  levelTargetDestoyDelay: 2
+  laserHittedEndColor: {r: 0, g: 0, b: 0, a: 1}
+  startLineFxSettings:
+    effectKey: FxObjectLaserRayStart
+    fxScalePerUnit: 0.026
+    fxShapeScalePerUnit: 0.2
+    effectIndexesToScale: 010000000300000008000000
+    effectIndexesToScaleShape: 
+  rayLineFxSettings:
+    effectKey: FxObjectLaserRay
+    fxScalePerUnit: 0.26
+    fxShapeScalePerUnit: 0.2
+    effectIndexesToScale: 0100000002000000
+    effectIndexesToScaleShape: 
+  effectsData:
+  - objectSizeType: 1
+    objectShapeType: 1
+    destroyEffectKey: FxObjectLaserDestroedBoxSmall
+    destroyEndEffectKey: FxObjectLaserDestroedBoxSphereSmallBodyLimbSpikesExplosion
+  - objectSizeType: 2
+    objectShapeType: 1
+    destroyEffectKey: FxObjectLaserDestroedBoxMedium
+    destroyEndEffectKey: FxObjectLaserDestroedBoxSphereMediumExplosion
+  - objectSizeType: 3
+    objectShapeType: 1
+    destroyEffectKey: FxObjectLaserDestroedBoxBig
+    destroyEndEffectKey: FxObjectLaserDestroedBoxSphereBigExplosion
+  - objectSizeType: 1
+    objectShapeType: 2
+    destroyEffectKey: FxObjectLaserDestroedSphereSmall
+    destroyEndEffectKey: FxObjectLaserDestroedBoxSphereSmallBodyLimbSpikesExplosion
+  - objectSizeType: 2
+    objectShapeType: 2
+    destroyEffectKey: FxObjectLaserDestroedSphereMedium
+    destroyEndEffectKey: FxObjectLaserDestroedBoxSphereMediumExplosion
+  - objectSizeType: 3
+    objectShapeType: 2
+    destroyEffectKey: FxObjectLaserDestroedSphereBig
+    destroyEndEffectKey: FxObjectLaserDestroedBoxSphereBigExplosion
+  - objectSizeType: 1
+    objectShapeType: 4
+    destroyEffectKey: FxObjectLaserDestroyedSpikes
+    destroyEndEffectKey: FxObjectLaserDestroedBoxSphereSmallBodyLimbSpikesExplosion
+  - objectSizeType: 2
+    objectShapeType: 5
+    destroyEffectKey: 
+    destroyEndEffectKey: 
+  - objectSizeType: 1
+    objectShapeType: 3
+    destroyEffectKey: FxObjectLaserDestroedPlankSmall
+    destroyEndEffectKey: FxObjectLaserDestroedBoxSphereSmallBodyLimbSpikesExplosion
+  - objectSizeType: 2
+    objectShapeType: 3
+    destroyEffectKey: FxObjectLaserDestroedPlankMedium
+    destroyEndEffectKey: FxObjectLaserDestroedPlankMediumExplosion
+  - objectSizeType: 3
+    objectShapeType: 3
+    destroyEffectKey: FxObjectLaserDestroedPlankBig
+    destroyEndEffectKey: FxObjectLaserDestroedPlankBigExplosion

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e927c7874e0e4e0aa39557abb6cfedc, type: 3}
+  m_Name: CommonLevelTargetSettings
+  m_EditorClassIdentifier: 
+  enemyMass: 70
+  bossGravityScale: 0
+  enemyGravityScale: 10
+  ragdollRootMass: 100
+  ragdollRotationLimit: -35
+  physicalsObjectsImpulsToApplyRagdoll: 140
+  maxRotationAngleToApplyRagdoll: 15
+  ragdollMaterial: {fileID: 6200000, guid: 734052cd9462b408ea949adc343b9511, type: 2}
+  limbPartDamageReceiveImpulsMultiplier: 0.008
+  physicalObjectDamageMultiplier: 1.1
+  corroseDuration: 1.5
+  greenColorSetDuration: 1.1
+  clearColorSetDuration: 0.4
+  laserDestroyDuration: 1.1
+  laserColorSetDuration: 1
+  laserClearColorSetDuration: 0.1
+  laserFxExplodeDelay: 1
+  minIdlesCountBeforeSpecialIdle: 3
+  maxIdlesCountBeforeSpecialIdle: 7
+  SimultaneousDeathDuration: 0.3
+  SimultaneousDeathSoundDelay: 0.1
+  limbDamageForCollisionSound: 25

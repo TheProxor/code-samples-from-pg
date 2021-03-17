@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f311c8e2dd8eb4fc7b9e79e6de9ccc8d, type: 3}
+  m_Name: ShooterAnimationSettings
+  m_EditorClassIdentifier: 
+  dataAsset: {fileID: 11400000, guid: d3c636533e1574026a839e3fc3ea9034, type: 2}
+  winNames:
+  - dance_best_mates
+  - dance_dab
+  - dance_floss
+  - dance_jubilation
+  - dance_take_the_l
+  - victory_dance_J&B
+  - victory_dance_cocky_snake
+  - victory_dance_dance_off
+  - victory_dance_fancy_feet
+  - victory_dance_helm
+  - victory_dance_party_monster
+  - victory_dance_ps_style
+  - victory_dance_r-l
+  - victory_dance_robot
+  - victory_dance_rooster
+  - victory_dance_skier
+  - victory_dance_slow_disco
+  - victory_dance_squat_kick
+  - victory_dance_step
+  - victory_dance_toad_wave
+  - victory_dence_hand_freeze
+  loseNames:
+  - defeat
+  danceAnimations:
+  - dance_best_mates
+  - dance_dab
+  - dance_floss
+  - dance_jubilation
+  - dance_take_the_l
+  - victory_dance_J&B
+  - victory_dance_cocky_snake
+  - victory_dance_dance_off
+  - victory_dance_fancy_feet
+  - victory_dance_helm
+  - victory_dance_party_monster
+  - victory_dance_ps_style
+  - victory_dance_r-l
+  - victory_dance_robot
+  - victory_dance_rooster
+  - victory_dance_skier
+  - victory_dance_slow_disco
+  - victory_dance_squat_kick
+  - victory_dance_step
+  - victory_dance_toad_wave
+  - victory_dence_hand_freeze
+  forcemeterIdleName: victory_dance_party_monster
+  forcemeterNames:
+  - dynamometer_hit_weakly
+  - dynamometer_hit_normal
+  - dynamometer_hit_strong
+  hammerLightingEvent: hammer_power
+  ragdollAnimationName: idle_empty
+  reactionPetEnemyHit: reaction_pet_enemy_hit
+  fearAnimations:
+  - fear
+  - fear2
+  aimingData:
+  - aimingType: 0100000002000000030000000d000000
+    hideWeaponAnimation: weapon_off_carabiner
+    tapReactionAnimation: tap_carabiner
+    petTapReactionAnimation: reaction_pet_menu_carabiner
+  - aimingType: 080000000b00000010000000
+    hideWeaponAnimation: weapon_off_throw
+    tapReactionAnimation: tap_throw
+    petTapReactionAnimation: reaction_pet_menu_throw
+  - aimingType: 0c000000
+    hideWeaponAnimation: weapon_off_bow
+    tapReactionAnimation: tap_bow
+    petTapReactionAnimation: reaction_pet_menu_bow
+  emotionsAnimationsDelay: 4

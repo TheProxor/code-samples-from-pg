@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e81f04fec6df48089bbd1fb0802ee8c, type: 3}
+  m_Name: ShooterAimingSettings
+  m_EditorClassIdentifier: 
+  asset: {fileID: 11400000, guid: d3c636533e1574026a839e3fc3ea9034, type: 2}
+  data:
+  - aimingType: 1
+    projectileSpawnBone: projectile_spawn
+  - aimingType: 2
+    projectileSpawnBone: weapon_throwing_hand_r
+  - aimingType: 3
+    projectileSpawnBone: projectile_spawn
+  animationData:
+  - weaponAimingType: 1
+    aimAnimation: weapon_carabiner_aiming_snipergun
+    shotAnimation: weapon_carabiner_shot
+    idleAnimation: weapon_carabiner_idle
+    greetingAnimations:
+    - weapon_carabiner_greeting
+    - weapon_carabiner_greeting_heavy_metal
+  - weaponAimingType: 2
+    aimAnimation: weapon_carabiner_aiming_shotgun
+    shotAnimation: weapon_carabiner_shot
+    idleAnimation: weapon_carabiner_idle
+    greetingAnimations:
+    - weapon_carabiner_greeting
+    - weapon_carabiner_greeting_heavy_metal
+  - weaponAimingType: 3
+    aimAnimation: weapon_carabiner_aiming_gravigun
+    shotAnimation: weapon_carabiner_shot
+    idleAnimation: weapon_carabiner_idle
+    greetingAnimations:
+    - weapon_carabiner_greeting
+    - weapon_carabiner_greeting_heavy_metal
+  - weaponAimingType: 4
+    aimAnimation: weapon_golden_glove_aiming
+    shotAnimation: weapon_golden_glove_shot
+    idleAnimation: weapon_golden_glove_idle
+    greetingAnimations:
+    - weapon_golden_glove_greeting
+  - weaponAimingType: 5
+    aimAnimation: weapon_magic_wand_aiming
+    shotAnimation: weapon_magic_wand_shot
+    idleAnimation: weapon_magic_wand_idle
+    greetingAnimations:
+    - weapon_magic_wand_greeting
+  - weaponAimingType: 6
+    aimAnimation: weapon_pistol_aiming_snipergun
+    shotAnimation: weapon_pistol_shot
+    idleAnimation: weapon_pistol_idle
+    greetingAnimations:
+    - weapon_pistol_greeting
+  - weaponAimingType: 7
+    aimAnimation: weapon_spheres_aiming
+    shotAnimation: weapon_spheres_shot
+    idleAnimation: weapon_spheres_idle
+    greetingAnimations:
+    - weapon_spheres_greeting
+  - weaponAimingType: 8
+    aimAnimation: weapon_throwing_aiming
+    shotAnimation: weapon_throwing_shot
+    idleAnimation: weapon_throwing_idle
+    greetingAnimations:
+    - weapon_throwing_greeting
+  - weaponAimingType: 9
+    aimAnimation: weapon_pistol_aiming_shotgun
+    shotAnimation: weapon_pistol_shot
+    idleAnimation: weapon_pistol_idle
+    greetingAnimations:
+    - weapon_pistol_greeting
+  - weaponAimingType: 10
+    aimAnimation: weapon_pistol_aiming_gravigun
+    shotAnimation: weapon_pistol_shot
+    idleAnimation: weapon_pistol_idle
+    greetingAnimations:
+    - weapon_pistol_greeting
+  - weaponAimingType: 11
+    aimAnimation: weapon_throwing_aiming_snipergun
+    shotAnimation: weapon_throwing_shot
+    idleAnimation: weapon_throwing_idle
+    greetingAnimations:
+    - weapon_throwing_greeting_sharp
+  - weaponAimingType: 12
+    aimAnimation: weapon_bow_aiming
+    shotAnimation: weapon_bow_shot
+    idleAnimation: weapon_bow_idle
+    greetingAnimations:
+    - weapon_bow_greeting
+  - weaponAimingType: 13
+    aimAnimation: weapon_carabiner_aiming_portalgun
+    shotAnimation: weapon_carabiner_shot
+    idleAnimation: weapon_carabiner_idle
+    greetingAnimations:
+    - weapon_carabiner_greeting
+    - weapon_carabiner_greeting_heavy_metal
+  - weaponAimingType: 14
+    aimAnimation: weapon_pistol_aiming_portalgun
+    shotAnimation: weapon_pistol_shot
+    idleAnimation: weapon_pistol_idle
+    greetingAnimations:
+    - weapon_pistol_greeting
+  - weaponAimingType: 15
+    aimAnimation: weapon_carabiner_aiming_shotgun
+    shotAnimation: weapon_machinegun_shot
+    idleAnimation: weapon_carabiner_idle
+    greetingAnimations:
+    - weapon_carabiner_greeting_heavy_metal
+  - weaponAimingType: 16
+    aimAnimation: weapon_throwing_aiming_portalgun
+    shotAnimation: weapon_throwing_shot_portalgun
+    idleAnimation: weapon_throwing_idle
+    greetingAnimations:
+    - weapon_throwing_greeting_sharp
+  animationWithoutWeapon: idle_empty
+  attachmentsEnableEvent: color_greeting

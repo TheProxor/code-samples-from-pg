@@ -1,0 +1,1099 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b713baf79bc44988a2aee508753e617, type: 3}
+  m_Name: LeagueVisualSettings
+  m_EditorClassIdentifier: 
+  data:
+  - key: 1
+    enabledLeagueIconSprite: {fileID: 21300000, guid: d19ff81ea041a4f58995df133395c90a,
+      type: 3}
+    headerText: loc_shooters_league
+    showAnimation: in_shooters
+    showWhiteAnimation: in_shooters_white_bg
+    idleAnimation: idle_shooters
+    idleWhiteAnimation: idle_shooters_white_bg
+    uiLeagueLeaderBoardElemenIconsDatas:
+    - ownerType: 1
+      sprite: {fileID: 21300000, guid: 70e6eedcb54874b25bc1890dbbabe5cc, type: 3}
+    - ownerType: 2
+      sprite: {fileID: 21300000, guid: 44eaf563e4c70470d9f647f4fdf27301, type: 3}
+  - key: 2
+    enabledLeagueIconSprite: {fileID: 21300000, guid: 04de350af2d98441f9edf8fb534af1f1,
+      type: 3}
+    headerText: loc_rangers_league
+    showAnimation: in_rangers
+    showWhiteAnimation: in_rangers_white_bg
+    idleAnimation: idle_rangers
+    idleWhiteAnimation: idle_rangers_white_bg
+    uiLeagueLeaderBoardElemenIconsDatas:
+    - ownerType: 1
+      sprite: {fileID: 21300000, guid: 3107b5afd7f2c40a1bef63829517ca80, type: 3}
+    - ownerType: 2
+      sprite: {fileID: 21300000, guid: 1d5dad3a87d39423f84f75b8618294d2, type: 3}
+  - key: 3
+    enabledLeagueIconSprite: {fileID: 21300000, guid: 080da0e48d2e748eeb6552bc229de75f,
+      type: 3}
+    headerText: loc_snipers_league
+    showAnimation: in_snipers
+    showWhiteAnimation: in_snipers_white_bg
+    idleAnimation: idle_snipers
+    idleWhiteAnimation: idle_snipers_white_bg
+    uiLeagueLeaderBoardElemenIconsDatas:
+    - ownerType: 1
+      sprite: {fileID: 21300000, guid: b89545d55b92b44e0a03cf3ce55711b0, type: 3}
+    - ownerType: 2
+      sprite: {fileID: 21300000, guid: 7c53a480505374da6aac8a9f767ca25b, type: 3}
+  - key: 4
+    enabledLeagueIconSprite: {fileID: 21300000, guid: 574f3077856504d7dbc6ddb7bfb7cc63,
+      type: 3}
+    headerText: loc_masters_league
+    showAnimation: in_masters
+    showWhiteAnimation: in_masters_white_bg
+    idleAnimation: idle_masters
+    idleWhiteAnimation: idle_masters_white_bg
+    uiLeagueLeaderBoardElemenIconsDatas:
+    - ownerType: 1
+      sprite: {fileID: 21300000, guid: 01ababfa0a6b44bf29817b7eec2dce4e, type: 3}
+    - ownerType: 2
+      sprite: {fileID: 21300000, guid: d038289b235974ceab74ff6d3cf6b664, type: 3}
+  leaguesIconsDataAsset: {fileID: 11400000, guid: 3bcc13b737fd5c6448393ed7a926306c,
+    type: 2}
+  noInternetSprite: {fileID: 21300000, guid: a39bd79f4ab7f4d83a2f2de286faaec5, type: 3}
+  uiLeagueLeaderBoardElementData:
+  - key:
+      type: 1
+      shouldCheckNextLeagueAchived: 1
+      isNextLeagueAchived: 0
+    uiLeagueLeaderBoardElemenCurrencyData:
+    - currencyType: 1
+      sprite: {fileID: 21300000, guid: 26e9e6d5b605f4882a745e41e7b7da78, type: 3}
+    - currencyType: 2
+      sprite: {fileID: 21300000, guid: de585083bf52e43d189e6355596025d3, type: 3}
+    - currencyType: 4
+      sprite: {fileID: 21300000, guid: c465f01476f61414684c3f09932d2dd6, type: 3}
+    - currencyType: 5
+      sprite: {fileID: 21300000, guid: 4e0090976bab341f4b1c384a6916f101, type: 3}
+    uiLeagueLeaderBoardElementChestData:
+    - chestType: 1
+      sprite: {fileID: 21300000, guid: 8790dcc19e4514149bbd58800e9ef82f, type: 3}
+    - chestType: 2
+      sprite: {fileID: 21300000, guid: aaaf6a4634820461da481e9e62353ee7, type: 3}
+    - chestType: 3
+      sprite: {fileID: 21300000, guid: 66c51efc9a3844a96b4a9c1ebb4dcdad, type: 3}
+    - chestType: 4
+      sprite: {fileID: 21300000, guid: 852a18c05ee73426998e908f68e78fa1, type: 3}
+    - chestType: 5
+      sprite: {fileID: 21300000, guid: 47e8f8ad351ab4573b63fdb921c8f49a, type: 3}
+    - chestType: 6
+      sprite: {fileID: 21300000, guid: 94cd635be42af4f0dbaa405362da2279, type: 3}
+    - chestType: 7
+      sprite: {fileID: 21300000, guid: a35dca233ab3446f88685ca153cca52a, type: 3}
+    shooterSkinsIconData:
+    - type: 73
+      activeIcon: {fileID: 21300000, guid: 6ef0ea974b1ad423aa2dcc6f572fb6ba, type: 3}
+    - type: 41
+      activeIcon: {fileID: 21300000, guid: 9f36b8dbbec484f20a35d2b63703d8ce, type: 3}
+    - type: 74
+      activeIcon: {fileID: 21300000, guid: 0aa9e8c9d751848f8b0650e743e86ae4, type: 3}
+    - type: 50
+      activeIcon: {fileID: 21300000, guid: a0eed1ea10c7a4a86b579f2ba1427e75, type: 3}
+    weaponSkinsIconData: []
+    petSkinsIconData:
+    - type: 6
+      activeIcon: {fileID: 21300000, guid: 8ab17608802524b2f85bcee85c738208, type: 3}
+    - type: 7
+      activeIcon: {fileID: 21300000, guid: 1fe49b89ff42e4ed39c61df52d2925fc, type: 3}
+    - type: 5
+      activeIcon: {fileID: 21300000, guid: 6f656cc50069441558471ef385cf890d, type: 3}
+    - type: 4
+      activeIcon: {fileID: 21300000, guid: 2b72a5477af1c4739a0559a3a53b9fac, type: 3}
+  - key:
+      type: 2
+      shouldCheckNextLeagueAchived: 0
+      isNextLeagueAchived: 0
+    uiLeagueLeaderBoardElemenCurrencyData:
+    - currencyType: 1
+      sprite: {fileID: 21300000, guid: 06203e878a5e04060af79467e077d331, type: 3}
+    - currencyType: 2
+      sprite: {fileID: 21300000, guid: 2fd26bcb4e39f4a84aeafb98ada3d95c, type: 3}
+    - currencyType: 4
+      sprite: {fileID: 21300000, guid: 376baed92493f45ff9529d3c5ddf8cf2, type: 3}
+    - currencyType: 5
+      sprite: {fileID: 21300000, guid: ad89132ced9f04435887de9c8ad9950a, type: 3}
+    uiLeagueLeaderBoardElementChestData:
+    - chestType: 1
+      sprite: {fileID: 21300000, guid: 4a9802a62e7b94555ae4e83ef3dce19b, type: 3}
+    - chestType: 2
+      sprite: {fileID: 21300000, guid: c8f49906e942946bfbea1efffe5c673c, type: 3}
+    - chestType: 3
+      sprite: {fileID: 21300000, guid: bd351daa006b24a89ac12ab5539b2750, type: 3}
+    - chestType: 4
+      sprite: {fileID: 21300000, guid: d9db696a110e54906926c92110f3a330, type: 3}
+    - chestType: 5
+      sprite: {fileID: 21300000, guid: a359902cd50894f3498fe093fa44ec12, type: 3}
+    - chestType: 6
+      sprite: {fileID: 21300000, guid: cdccb54ae565c4df5a0ab7d4feef20eb, type: 3}
+    - chestType: 7
+      sprite: {fileID: 21300000, guid: f0588fb44067f4b04b6ceca53a85d8d8, type: 3}
+    shooterSkinsIconData:
+    - type: 73
+      activeIcon: {fileID: 21300000, guid: 07d8fca1d42834467865029f89b37a88, type: 3}
+    - type: 41
+      activeIcon: {fileID: 21300000, guid: 40e4e6b1178f8499990132164eadcda4, type: 3}
+    - type: 74
+      activeIcon: {fileID: 21300000, guid: 0e5b40bf528fa45a0a7a8852fa737f18, type: 3}
+    - type: 50
+      activeIcon: {fileID: 21300000, guid: 41f425d5d940a49fcbd7dd9ab8cf888d, type: 3}
+    weaponSkinsIconData: []
+    petSkinsIconData:
+    - type: 6
+      activeIcon: {fileID: 21300000, guid: 8e106a0e553d34c869f4a7381f64f41f, type: 3}
+    - type: 7
+      activeIcon: {fileID: 21300000, guid: c247d8903f2e447ca817a45eac5ef140, type: 3}
+    - type: 5
+      activeIcon: {fileID: 21300000, guid: 9949eb21416cb4f0e9fd18841778df11, type: 3}
+    - type: 4
+      activeIcon: {fileID: 21300000, guid: 33d9e739599834e9986730f29b074a6a, type: 3}
+  - key:
+      type: 1
+      shouldCheckNextLeagueAchived: 1
+      isNextLeagueAchived: 1
+    uiLeagueLeaderBoardElemenCurrencyData:
+    - currencyType: 1
+      sprite: {fileID: 21300000, guid: 71977c223b1d947ada18c2ec44897b30, type: 3}
+    - currencyType: 2
+      sprite: {fileID: 21300000, guid: c00a18e749c8a472d9a224eac0ed7672, type: 3}
+    - currencyType: 4
+      sprite: {fileID: 21300000, guid: f20b9a7fb7138455bad9fb24343a8fa1, type: 3}
+    - currencyType: 5
+      sprite: {fileID: 21300000, guid: 4fddf7ea2910a450bb7c049cf55665ca, type: 3}
+    uiLeagueLeaderBoardElementChestData:
+    - chestType: 1
+      sprite: {fileID: 21300000, guid: 78cca5c2e9ce748c3afdcd2040fb320c, type: 3}
+    - chestType: 2
+      sprite: {fileID: 21300000, guid: ba37196d8652e425abed9f4ef371f68d, type: 3}
+    - chestType: 3
+      sprite: {fileID: 21300000, guid: 6963f8e16e20a4c04b5c629e6b6bb949, type: 3}
+    - chestType: 4
+      sprite: {fileID: 21300000, guid: 855461a90e35b4a62838d78658c7f89d, type: 3}
+    - chestType: 5
+      sprite: {fileID: 21300000, guid: 571aa3960c6be4199b0abc358da2c259, type: 3}
+    - chestType: 6
+      sprite: {fileID: 21300000, guid: 68ca297b1eafb43d5a11aa737446732c, type: 3}
+    - chestType: 7
+      sprite: {fileID: 21300000, guid: c8f7ba1ccff1e46b7933da43c6915868, type: 3}
+    shooterSkinsIconData:
+    - type: 73
+      activeIcon: {fileID: 21300000, guid: 58db6ecbca4554a08b2d459ed9c0bf41, type: 3}
+    - type: 41
+      activeIcon: {fileID: 21300000, guid: f8204b16d48b14bda9fb6908a196e834, type: 3}
+    - type: 74
+      activeIcon: {fileID: 21300000, guid: 7f69bf86b009249e5bc0712c74ec545a, type: 3}
+    - type: 50
+      activeIcon: {fileID: 21300000, guid: e0ef8906c57684adaa0d196114423c84, type: 3}
+    weaponSkinsIconData: []
+    petSkinsIconData:
+    - type: 6
+      activeIcon: {fileID: 21300000, guid: 8ab17608802524b2f85bcee85c738208, type: 3}
+    - type: 7
+      activeIcon: {fileID: 21300000, guid: 1fe49b89ff42e4ed39c61df52d2925fc, type: 3}
+    - type: 5
+      activeIcon: {fileID: 21300000, guid: 6f656cc50069441558471ef385cf890d, type: 3}
+    - type: 4
+      activeIcon: {fileID: 21300000, guid: 2b72a5477af1c4739a0559a3a53b9fac, type: 3}
+  uiLeagueEndScreenElementData:
+  - key:
+      type: 1
+      shouldCheckNextLeagueAchived: 1
+      isNextLeagueAchived: 0
+    uiLeagueLeaderBoardElemenCurrencyData:
+    - currencyType: 1
+      sprite: {fileID: 21300000, guid: 753cbbf3f6e4d4d5987af694778ea9d6, type: 3}
+    - currencyType: 2
+      sprite: {fileID: 21300000, guid: 1b041acc1f35441829f580ed5183225d, type: 3}
+    - currencyType: 4
+      sprite: {fileID: 21300000, guid: b84c80176ae5740f5ae3aaad9db4e448, type: 3}
+    - currencyType: 5
+      sprite: {fileID: 21300000, guid: 577c861f272644e47875f4ae860b984d, type: 3}
+    uiLeagueLeaderBoardElementChestData:
+    - chestType: 1
+      sprite: {fileID: 21300000, guid: a0bd8334530854c5fb9dc8494ded52a9, type: 3}
+    - chestType: 2
+      sprite: {fileID: 21300000, guid: 66247fe38a44d40048bc280e41ae3bc2, type: 3}
+    - chestType: 3
+      sprite: {fileID: 21300000, guid: c6f2e6ac8272d476caeaa6909f9c0861, type: 3}
+    - chestType: 4
+      sprite: {fileID: 21300000, guid: e9068953069874b1aae6bf1024c284a7, type: 3}
+    - chestType: 5
+      sprite: {fileID: 21300000, guid: 148d1581321cb487584b6a6a89d3929e, type: 3}
+    - chestType: 6
+      sprite: {fileID: 21300000, guid: 981cd100c11964b94acd7cb80bc2a0bc, type: 3}
+    - chestType: 7
+      sprite: {fileID: 21300000, guid: db1568560e2db4a438d8f4cbe3fd0c54, type: 3}
+    shooterSkinsIconData:
+    - type: 73
+      activeIcon: {fileID: 21300000, guid: 6ef0ea974b1ad423aa2dcc6f572fb6ba, type: 3}
+    - type: 41
+      activeIcon: {fileID: 21300000, guid: 9f36b8dbbec484f20a35d2b63703d8ce, type: 3}
+    - type: 74
+      activeIcon: {fileID: 21300000, guid: 0aa9e8c9d751848f8b0650e743e86ae4, type: 3}
+    - type: 50
+      activeIcon: {fileID: 21300000, guid: a0eed1ea10c7a4a86b579f2ba1427e75, type: 3}
+    weaponSkinsIconData: []
+    petSkinsIconData:
+    - type: 6
+      activeIcon: {fileID: 21300000, guid: 8ab17608802524b2f85bcee85c738208, type: 3}
+    - type: 7
+      activeIcon: {fileID: 21300000, guid: 1fe49b89ff42e4ed39c61df52d2925fc, type: 3}
+    - type: 5
+      activeIcon: {fileID: 21300000, guid: 6f656cc50069441558471ef385cf890d, type: 3}
+    - type: 4
+      activeIcon: {fileID: 21300000, guid: 2b72a5477af1c4739a0559a3a53b9fac, type: 3}
+  - key:
+      type: 2
+      shouldCheckNextLeagueAchived: 0
+      isNextLeagueAchived: 0
+    uiLeagueLeaderBoardElemenCurrencyData:
+    - currencyType: 1
+      sprite: {fileID: 21300000, guid: 06203e878a5e04060af79467e077d331, type: 3}
+    - currencyType: 2
+      sprite: {fileID: 21300000, guid: 2fd26bcb4e39f4a84aeafb98ada3d95c, type: 3}
+    - currencyType: 4
+      sprite: {fileID: 21300000, guid: 376baed92493f45ff9529d3c5ddf8cf2, type: 3}
+    - currencyType: 5
+      sprite: {fileID: 21300000, guid: ad89132ced9f04435887de9c8ad9950a, type: 3}
+    uiLeagueLeaderBoardElementChestData:
+    - chestType: 1
+      sprite: {fileID: 21300000, guid: 4a9802a62e7b94555ae4e83ef3dce19b, type: 3}
+    - chestType: 2
+      sprite: {fileID: 21300000, guid: c8f49906e942946bfbea1efffe5c673c, type: 3}
+    - chestType: 3
+      sprite: {fileID: 21300000, guid: bd351daa006b24a89ac12ab5539b2750, type: 3}
+    - chestType: 4
+      sprite: {fileID: 21300000, guid: d9db696a110e54906926c92110f3a330, type: 3}
+    - chestType: 5
+      sprite: {fileID: 21300000, guid: a359902cd50894f3498fe093fa44ec12, type: 3}
+    - chestType: 6
+      sprite: {fileID: 21300000, guid: cdccb54ae565c4df5a0ab7d4feef20eb, type: 3}
+    - chestType: 7
+      sprite: {fileID: 21300000, guid: f0588fb44067f4b04b6ceca53a85d8d8, type: 3}
+    shooterSkinsIconData:
+    - type: 73
+      activeIcon: {fileID: 21300000, guid: 07d8fca1d42834467865029f89b37a88, type: 3}
+    - type: 41
+      activeIcon: {fileID: 21300000, guid: 40e4e6b1178f8499990132164eadcda4, type: 3}
+    - type: 74
+      activeIcon: {fileID: 21300000, guid: 0e5b40bf528fa45a0a7a8852fa737f18, type: 3}
+    - type: 50
+      activeIcon: {fileID: 21300000, guid: 41f425d5d940a49fcbd7dd9ab8cf888d, type: 3}
+    weaponSkinsIconData: []
+    petSkinsIconData:
+    - type: 6
+      activeIcon: {fileID: 21300000, guid: 8e106a0e553d34c869f4a7381f64f41f, type: 3}
+    - type: 7
+      activeIcon: {fileID: 21300000, guid: c247d8903f2e447ca817a45eac5ef140, type: 3}
+    - type: 5
+      activeIcon: {fileID: 21300000, guid: 9949eb21416cb4f0e9fd18841778df11, type: 3}
+    - type: 4
+      activeIcon: {fileID: 21300000, guid: 33d9e739599834e9986730f29b074a6a, type: 3}
+  - key:
+      type: 1
+      shouldCheckNextLeagueAchived: 1
+      isNextLeagueAchived: 1
+    uiLeagueLeaderBoardElemenCurrencyData:
+    - currencyType: 1
+      sprite: {fileID: 21300000, guid: 753cbbf3f6e4d4d5987af694778ea9d6, type: 3}
+    - currencyType: 2
+      sprite: {fileID: 21300000, guid: 1b041acc1f35441829f580ed5183225d, type: 3}
+    - currencyType: 4
+      sprite: {fileID: 21300000, guid: b84c80176ae5740f5ae3aaad9db4e448, type: 3}
+    - currencyType: 5
+      sprite: {fileID: 21300000, guid: 577c861f272644e47875f4ae860b984d, type: 3}
+    uiLeagueLeaderBoardElementChestData:
+    - chestType: 1
+      sprite: {fileID: 21300000, guid: a0bd8334530854c5fb9dc8494ded52a9, type: 3}
+    - chestType: 2
+      sprite: {fileID: 21300000, guid: 66247fe38a44d40048bc280e41ae3bc2, type: 3}
+    - chestType: 3
+      sprite: {fileID: 21300000, guid: c6f2e6ac8272d476caeaa6909f9c0861, type: 3}
+    - chestType: 4
+      sprite: {fileID: 21300000, guid: e9068953069874b1aae6bf1024c284a7, type: 3}
+    - chestType: 5
+      sprite: {fileID: 21300000, guid: 148d1581321cb487584b6a6a89d3929e, type: 3}
+    - chestType: 6
+      sprite: {fileID: 21300000, guid: 981cd100c11964b94acd7cb80bc2a0bc, type: 3}
+    - chestType: 7
+      sprite: {fileID: 21300000, guid: db1568560e2db4a438d8f4cbe3fd0c54, type: 3}
+    shooterSkinsIconData:
+    - type: 73
+      activeIcon: {fileID: 21300000, guid: 6ef0ea974b1ad423aa2dcc6f572fb6ba, type: 3}
+    - type: 41
+      activeIcon: {fileID: 21300000, guid: 9f36b8dbbec484f20a35d2b63703d8ce, type: 3}
+    - type: 74
+      activeIcon: {fileID: 21300000, guid: 0aa9e8c9d751848f8b0650e743e86ae4, type: 3}
+    - type: 50
+      activeIcon: {fileID: 21300000, guid: a0eed1ea10c7a4a86b579f2ba1427e75, type: 3}
+    weaponSkinsIconData: []
+    petSkinsIconData:
+    - type: 6
+      activeIcon: {fileID: 21300000, guid: 8ab17608802524b2f85bcee85c738208, type: 3}
+    - type: 7
+      activeIcon: {fileID: 21300000, guid: 1fe49b89ff42e4ed39c61df52d2925fc, type: 3}
+    - type: 5
+      activeIcon: {fileID: 21300000, guid: 6f656cc50069441558471ef385cf890d, type: 3}
+    - type: 4
+      activeIcon: {fileID: 21300000, guid: 2b72a5477af1c4739a0559a3a53b9fac, type: 3}
+  uiLeagueIntermediateMenuChestData:
+  - chestType: 1
+    sprite: {fileID: 21300000, guid: ad7e2d1eccbe24e4983e0f3e2ab5fb87, type: 3}
+  - chestType: 3
+    sprite: {fileID: 21300000, guid: 48c69a09f4e5d4aa0b9b6fef32ef0309, type: 3}
+  - chestType: 2
+    sprite: {fileID: 21300000, guid: 4669dbf3f91be4903b9c1a7f98ca9a5a, type: 3}
+  - chestType: 4
+    sprite: {fileID: 21300000, guid: ab9c37f4a4e50421f9294f1ed5855f1c, type: 3}
+  - chestType: 5
+    sprite: {fileID: 21300000, guid: b61b3cb2cece54cd091adc47d68f0817, type: 3}
+  - chestType: 6
+    sprite: {fileID: 21300000, guid: c987d912e684946a882cac2045680f40, type: 3}
+  - chestType: 7
+    sprite: {fileID: 21300000, guid: 9e0b0e0df72364455bb6067b9eecc43f, type: 3}
+  uiLeagueIntermediateLeaderbordChestData:
+  - chestType: 1
+    sprite: {fileID: 21300000, guid: dfdf016bc4f584f1cb9701e886add6d5, type: 3}
+  - chestType: 2
+    sprite: {fileID: 21300000, guid: 7a08020232aa0428ea4eefb8ee6ca1f8, type: 3}
+  - chestType: 3
+    sprite: {fileID: 21300000, guid: 1f73df00947c34b53a0005f4e4f0d9cb, type: 3}
+  - chestType: 4
+    sprite: {fileID: 21300000, guid: de20b273670e241648ede8b1118341f4, type: 3}
+  - chestType: 5
+    sprite: {fileID: 21300000, guid: 256d278fd1d134073af2aa799a5e7899, type: 3}
+  - chestType: 6
+    sprite: {fileID: 21300000, guid: ddc64be27f3e347979c1afcf913cc949, type: 3}
+  - chestType: 7
+    sprite: {fileID: 21300000, guid: c461a7fad088a41ad980f7b4f9c06c42, type: 3}
+  elementsMoveAnimation:
+    duration: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 621, y: -8085, z: 0}
+    endValue: {x: 621, y: -401, z: 0}
+  elementsMoveSizeAnimation:
+    duration: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  elementsSkullsAnimation:
+    duration: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.4
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 0
+  startElementsMoveDelay: 0.4
+  playerElementMoveScaleAnimation:
+    duration: 0.3
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2.1381097
+        outSlope: 2.1381097
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.49929023
+        value: 1.0675373
+        inSlope: 0.4784826
+        outSlope: 0.4784826
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.11124592
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.5410128
+        outSlope: 0.5410128
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.14723228
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 1, y: 1, z: 1}
+    endValue: {x: 1.05, y: 1.05, z: 1}
+  skullTrailAnimation:
+    duration: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 1
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 20000, y: 95.45521, z: 100}
+    endValue: {x: 20020.545, y: -48.568382, z: 100}
+  scrollLeagueChangeAnimation:
+    duration: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 1
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 0, y: 0, z: 0}
+    endValue: {x: 621, y: 0, z: 0}
+  scrollLeagueChangeSwipeAnimation:
+    duration: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 1
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  leagueChangeStrokeAlphaAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  leagueIconMinScale: 0.4
+  enterNameTextScaleAnimation:
+    duration: 0.3
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 1, y: 1, z: 1}
+    endValue: {x: 1.8, y: 1.8, z: 1}
+  enterNameTextColorAnimation:
+    duration: 0.3
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {r: 1, g: 1, b: 1, a: 1}
+    endValue: {r: 0.9843138, g: 0.7372549, b: 0.18039216, a: 1}
+  leagueEndElementMoveAnimation:
+    duration: 0.3
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 621, y: -964.84, z: 0}
+    endValue: {x: 621, y: -909, z: 0}
+  leagueEndElementAlpfaAnimation:
+    duration: 0.3
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  leagueEndButtonAlpfaAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  leagueEndElementMoveScaleAnimation:
+    duration: 0.3
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2.1381097
+        outSlope: 2.1381097
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.49929023
+        value: 1.0675373
+        inSlope: 0.4784826
+        outSlope: 0.4784826
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.11124592
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.5410128
+        outSlope: 0.5410128
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.14723228
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 1, y: 1, z: 1}
+    endValue: {x: 1.05, y: 1.05, z: 1}
+  localizationDescriptionLeaguePrefix: loc_
+  localizationDescriptionKey: loc_you_in_the_league
+  petRewardDescriptionKey: loc_league_main_posfix_pet
+  gemRewardDescriptionKey: loc_league_main_posfix_gems
+  finalRewardTextKey: loc_your_tournament_reward
+  placesData:
+  - boardPosition: 0
+    placeSprite: {fileID: 21300000, guid: e48d8065a30c44fef9a5bea6a5a49a3d, type: 3}
+    outlineColor: {r: 0.427451, g: 0.16862746, b: 0.07058824, a: 1}
+  - boardPosition: 1
+    placeSprite: {fileID: 21300000, guid: f72ac86d75834401684ff0e0ee3c4267, type: 3}
+    outlineColor: {r: 0.30588236, g: 0.1882353, b: 0.6745098, a: 1}
+  - boardPosition: 2
+    placeSprite: {fileID: 21300000, guid: 003ec3b1520c24f208e0715cafcdeb17, type: 3}
+    outlineColor: {r: 0.427451, g: 0.16862746, b: 0.07058824, a: 1}
+  gemsMainRewardSprite: {fileID: 21300000, guid: 422d0f575d0a44b5980087dc04105128,
+    type: 3}
+  mainRewardFadeAnimation:
+    duration: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  hideRewardTimeout: 0.5
+  startScrollAnimation:
+    duration: 1.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.18443385
+        value: 0.026191974
+        inSlope: 0.4402806
+        outSlope: 0.4402806
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.70698875
+        value: 1.0143874
+        inSlope: 0.18424723
+        outSlope: 0.18424723
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.14450498
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.091420576
+        outSlope: 0.091420576
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 1
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.7
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 0, y: 6742.1045, z: 0}
+    endValue: {x: 0, y: -0, z: 0}
+  startElementData:
+  - startAnimation:
+      duration: 0.28
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {x: 1, y: 1, z: 1}
+      endValue: {x: 1.05, y: 1.05, z: 1}
+    indexesToAnimate: 03000000
+    onStartFxKey: 
+  - startAnimation:
+      duration: 0.28
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0.15
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {x: 1, y: 1, z: 1}
+      endValue: {x: 1.05, y: 1.05, z: 1}
+    indexesToAnimate: 02000000
+    onStartFxKey: 
+  - startAnimation:
+      duration: 0.28
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0.25
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {x: 1, y: 1, z: 1}
+      endValue: {x: 1.05, y: 1.05, z: 1}
+    indexesToAnimate: 01000000
+    onStartFxKey: 
+  - startAnimation:
+      duration: 0.33
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.6710325
+          value: 0.7913675
+          inSlope: 2.013428
+          outSlope: 2.013428
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.07789216
+          outWeight: 0.19105084
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: -0.40802294
+          outSlope: -0.40802294
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.1667937
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0.45
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {x: 1, y: 1, z: 1}
+      endValue: {x: 1.15, y: 1.15, z: 1}
+    indexesToAnimate: 00000000
+    onStartFxKey: FxGUILeaderboardMainRewardFlash
+  timeScaleForProposalAnnouncer: 3

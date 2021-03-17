@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e25ddd59a0fa24797ae533bf510328fd, type: 3}
+  m_Name: ForceMeterUiSettings
+  m_EditorClassIdentifier: 
+  buttonsBlendAnimation:
+    duration: 0
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 0
+  skinRewardOpenDelay: 0.85
+  buttonData:
+  - animationTriggerKey: freeHit
+    buttonlocalizationKey: loc_free_hit
+  - animationTriggerKey: superHit
+    buttonlocalizationKey: loc_super_hit
+  - animationTriggerKey: monsterHit
+    buttonlocalizationKey: loc_mega_hit
+  forcemeterDataAsset: {fileID: 11400000, guid: ba58c20709fc4489186811b9e52656e5,
+    type: 2}
+  forcemeterFillProgressName: dynamometer_color_measures
+  lightEffectKeyName: FxGUIDynamometerLampOn
+  buttonRootBone: fx_hit
+  forcemeterFillProgressEvent: hit
+  stageAnimationData:
+  - lampsStageAnimationData:
+    - forcemeterLightBones:
+      - fx_lamp_14
+      enableDelay: 0.08
+    - forcemeterLightBones:
+      - fx_lamp_1
+      - fx_lamp_13
+      enableDelay: 0.2
+    - forcemeterLightBones:
+      - fx_lamp_2
+      enableDelay: 0.4
+    rewardElementBone: icon_frame_small
+    trackTimeAnimation:
+      duration: 0.5
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: 0
+      endValue: 1
+    forcemeterObjectName: dynamometer_hit_weakly
+    elementAnimationName: icon_small_active
+    buttonEffectKey: FxGUIDynamometerHitLevel1
+    shooterEffectKey: FxGUIDynamometerAuraSuper
+    shooterSfxKey: muscle_PB_char_shining
+    rewardReachEffectKey: FxGUIDynamometerIconReached
+    maleSound: muscle_PB_01_male
+    femaleSound: muscle_PB_01_female
+    shakeData:
+      duration: 0.5
+      strength: 5
+      vibrato: 2
+      randomness: 180
+      isFadeOut: 0
+      delay: 1.8
+    hitFadeAppearAnimation:
+      duration: 0
+      curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {r: 1, g: 1, b: 1, a: 1}
+      endValue: {r: 1, g: 1, b: 1, a: 1}
+    hitFadeDisappearAnimation:
+      duration: 0
+      curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {r: 1, g: 1, b: 1, a: 1}
+      endValue: {r: 1, g: 1, b: 1, a: 1}
+    hitHapticType: 0
+  - lampsStageAnimationData:
+    - forcemeterLightBones:
+      - fx_lamp_3
+      enableDelay: 0.08
+    - forcemeterLightBones:
+      - fx_lamp_4
+      - fx_lamp_11
+      enableDelay: 0.2
+    - forcemeterLightBones:
+      - fx_lamp_5
+      enableDelay: 0.4
+    rewardElementBone: icon_frame_middle
+    trackTimeAnimation:
+      duration: 0.5
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: 1
+      endValue: 2
+    forcemeterObjectName: dynamometer_hit_normal
+    elementAnimationName: icon_middle_active
+    buttonEffectKey: FxGUIDynamometerHitLevel2
+    shooterEffectKey: FxGUIDynamometerAuraMonster
+    shooterSfxKey: muscle_PB_char_shining
+    rewardReachEffectKey: FxGUIDynamometerIconReached
+    maleSound: muscle_PB_02_male
+    femaleSound: muscle_PB_02_female
+    shakeData:
+      duration: 0.8
+      strength: 8
+      vibrato: 4
+      randomness: 180
+      isFadeOut: 0
+      delay: 2.8
+    hitFadeAppearAnimation:
+      duration: 0
+      curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {r: 1, g: 1, b: 1, a: 1}
+      endValue: {r: 1, g: 1, b: 1, a: 1}
+    hitFadeDisappearAnimation:
+      duration: 0
+      curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {r: 1, g: 1, b: 1, a: 1}
+      endValue: {r: 1, g: 1, b: 1, a: 1}
+    hitHapticType: 0
+  - lampsStageAnimationData:
+    - forcemeterLightBones:
+      - fx_lamp_6
+      enableDelay: 0.08
+    - forcemeterLightBones:
+      - fx_lamp_7
+      - fx_lamp_10
+      enableDelay: 0.2
+    - forcemeterLightBones:
+      - fx_lamp_8
+      enableDelay: 0.4
+    - forcemeterLightBones:
+      - fx_lamp_9
+      enableDelay: 0.49
+    rewardElementBone: icon_frame_big
+    trackTimeAnimation:
+      duration: 0.5
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: 2
+      endValue: 3
+    forcemeterObjectName: dynamometer_hit_strong
+    elementAnimationName: icon_big_active
+    buttonEffectKey: FxGUIDynamometerHitLevel3
+    shooterEffectKey: 
+    shooterSfxKey: 
+    rewardReachEffectKey: FxGUIDynamometerConfetti
+    maleSound: muscle_PB_03_male
+    femaleSound: muscle_PB_03_female
+    shakeData:
+      duration: 1
+      strength: 10
+      vibrato: 6
+      randomness: 180
+      isFadeOut: 0
+      delay: 3.2
+    hitFadeAppearAnimation:
+      duration: 1.4
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 2
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {r: 0.12941177, g: 0.07058824, b: 0.23529412, a: 0}
+      endValue: {r: 0.12941177, g: 0.07058824, b: 0.23529412, a: 0.7058824}
+    hitFadeDisappearAnimation:
+      duration: 1.4
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 3
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {r: 0.12941177, g: 0.07058824, b: 0.23529412, a: 0.7058824}
+      endValue: {r: 0.12941177, g: 0.07058824, b: 0.23529412, a: 0}
+    hitHapticType: 0
+  lampFxDisableIterationIndex: 2
+  lightningEffectKey: FxGUIDynamometerHammerPowerUp
+  hammerTrailKey: FxGUIDynamometerHammerTrail

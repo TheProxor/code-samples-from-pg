@@ -1,0 +1,410 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e226cbb7c0dc442499be57af0c0d305, type: 3}
+  m_Name: HitmastersVisualSettings
+  m_EditorClassIdentifier: 
+  gameModeSprites:
+  - mode: 3
+    sprite: {fileID: 21300000, guid: 3f81e5aedb6df4bc396b3e6570871b16, type: 3}
+    smallSprite: {fileID: 21300000, guid: 80e265025889d473eb87e71ac9bc38cf, type: 3}
+    rewardSprite: {fileID: 21300000, guid: 7b8a1c12756904d2bbea55b09492cf80, type: 3}
+    uiMenuText: THE END!
+    skinType: 49
+    asset: {fileID: 11400000, guid: 00dd3a38c6d9e864fb5d6ee8257eb4e0, type: 2}
+    startAnimation: in
+    loopAnimation: loop
+    menuIdleFxKey: FxGUIMenuLiveOpsSniperShine
+    popUpIdleFxKey: 
+    eventFxData:
+    - asset: {fileID: 11400000, guid: 00dd3a38c6d9e864fb5d6ee8257eb4e0, type: 2}
+      fxKey: FxWeaponSniperRiffleShotGui
+      animEvent: shot
+      animStopEvent: 
+      bone: fx_root_snipergun_muzzle_flash
+      shouldAttachToRoot: 1
+  - mode: 2
+    sprite: {fileID: 21300000, guid: 2d4a01d52cb2e44589bc5ed20b18abf3, type: 3}
+    smallSprite: {fileID: 21300000, guid: 12c98a734c3a54982b2bc7e6ffeab997, type: 3}
+    rewardSprite: {fileID: 21300000, guid: 76024f7108e844f5f918761701576092, type: 3}
+    uiMenuText: SHOOT 'EM ALL!
+    skinType: 47
+    asset: {fileID: 11400000, guid: 33c8261e88210c445a1ae0333cdc2b13, type: 2}
+    startAnimation: in
+    loopAnimation: loop
+    menuIdleFxKey: FxGUIMenuLiveOpsShotgunShine
+    popUpIdleFxKey: 
+    eventFxData:
+    - asset: {fileID: 11400000, guid: 33c8261e88210c445a1ae0333cdc2b13, type: 2}
+      fxKey: FxWeaponShotGunShotGui
+      animEvent: shotgun_shot_l
+      animStopEvent: 
+      bone: fx_root_shotgun_muzzle_l
+      shouldAttachToRoot: 1
+    - asset: {fileID: 11400000, guid: 33c8261e88210c445a1ae0333cdc2b13, type: 2}
+      fxKey: FxWeaponShotGunShotGui
+      animEvent: shotgun_shot_r
+      animStopEvent: 
+      bone: fx_root_shotgun_muzzle_r
+      shouldAttachToRoot: 1
+  - mode: 6
+    sprite: {fileID: 21300000, guid: 2e7a4e67d49644380bbc5f12af51ee7e, type: 3}
+    smallSprite: {fileID: 21300000, guid: 3c5258cdc49a048d6b80841f68b95d68, type: 3}
+    rewardSprite: {fileID: 21300000, guid: 05d29a963d247425c9baa8c0a5f7ab64, type: 3}
+    uiMenuText: CAKE IS A LIE!
+    skinType: 48
+    asset: {fileID: 11400000, guid: 99fec10753cc37748b1d351e12e29237, type: 2}
+    startAnimation: in
+    loopAnimation: loop
+    menuIdleFxKey: FxGUIMenuLiveOpsPortalgunShine
+    popUpIdleFxKey: 
+    eventFxData:
+    - asset: {fileID: 11400000, guid: 99fec10753cc37748b1d351e12e29237, type: 2}
+      fxKey: FxWeaponPortalGreenGui
+      animEvent: portal_blue_start
+      animStopEvent: portal_blue_end
+      bone: fx_root_portal_blue
+      shouldAttachToRoot: 1
+    - asset: {fileID: 11400000, guid: 99fec10753cc37748b1d351e12e29237, type: 2}
+      fxKey: FxWeaponPortalOrangeGui
+      animEvent: portal_orange_start
+      animStopEvent: portal_orange_end
+      bone: fx_root_portal_orange
+      shouldAttachToRoot: 1
+  - mode: 5
+    sprite: {fileID: 21300000, guid: 16f3e9195f7fe40519dc4be6dc245c72, type: 3}
+    smallSprite: {fileID: 21300000, guid: 9d1500edd82f64ae084924065e19cef5, type: 3}
+    rewardSprite: {fileID: 21300000, guid: 9871e2336564c42bf85f11f80abb5d87, type: 3}
+    uiMenuText: ZERO GRAVITY!
+    skinType: 46
+    asset: {fileID: 11400000, guid: 2510356e4e97256459f111326e0ee275, type: 2}
+    startAnimation: in
+    loopAnimation: loop
+    menuIdleFxKey: FxGUIMenuLiveOpsGravigunShine
+    popUpIdleFxKey: 
+    eventFxData:
+    - asset: {fileID: 11400000, guid: 2510356e4e97256459f111326e0ee275, type: 2}
+      fxKey: FxWeaponGraviGunShotGui
+      animEvent: crate_pull
+      animStopEvent: 
+      bone: fx_root_gravigun_muzzle
+      shouldAttachToRoot: 1
+    - asset: {fileID: 11400000, guid: 2510356e4e97256459f111326e0ee275, type: 2}
+      fxKey: FxWeaponGraviGunShotGui
+      animEvent: crate_push
+      animStopEvent: 
+      bone: fx_root_gravigun_muzzle
+      shouldAttachToRoot: 1
+  mapPointIcons:
+  - type: 0
+    activeIcon: {fileID: 21300000, guid: 53c61a4bd8ad848c7992c28a1b3fe37e, type: 3}
+    disableIcon: {fileID: 21300000, guid: f835c0836a64a46439da9a190a1d885d, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 60918c31dfaa04460be75263dece09bd, type: 3}
+    shadowIcon: {fileID: 21300000, guid: 1b70985b95e91472b995007fd0ca0a29, type: 3}
+    idleFxKey: 
+    idleActiveFxKey: FxGUIMapMetaLevelShine
+    unlockFxKey: FxGUIMapElementUnlock
+    unlockFxKeyScale: {x: 9, y: 9, z: 1}
+  - type: 1
+    activeIcon: {fileID: 21300000, guid: c1962ea613f3f4f6998062fdd1ee6cbc, type: 3}
+    disableIcon: {fileID: 21300000, guid: 861a321452bb648c2902e67cb71911c3, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 969c1637986f341ebb8d79d8cf75a423, type: 3}
+    shadowIcon: {fileID: 21300000, guid: 7a0119129d76c41a2b332835bd83a2a9, type: 3}
+    idleFxKey: 
+    idleActiveFxKey: FxGUIMapMetaSuitcaseShine
+    unlockFxKey: FxGUIMapElementUnlock
+    unlockFxKeyScale: {x: 11, y: 11, z: 11}
+  - type: 2
+    activeIcon: {fileID: 21300000, guid: 881ea660a9aea4c6498dcad2ee7b70a4, type: 3}
+    disableIcon: {fileID: 21300000, guid: 3a6160c20a91a42c6b6ecc440c38f4aa, type: 3}
+    lockedIcon: {fileID: 21300000, guid: da8d5f609031f404c8cb317bd7514d64, type: 3}
+    shadowIcon: {fileID: 21300000, guid: aa33997ee18c4410ebb0b9183c006993, type: 3}
+    idleFxKey: 
+    idleActiveFxKey: FxGUIMapMetaShopShine
+    unlockFxKey: FxGUIMapElementUnlock
+    unlockFxKeyScale: {x: 11, y: 11, z: 11}
+  - type: 3
+    activeIcon: {fileID: 21300000, guid: e8110f6fc5544469da572d127a07ed79, type: 3}
+    disableIcon: {fileID: 21300000, guid: 0070597cbb5a7471c9a3aad3f4a357db, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 258079161b53242b385a659ebe2f381c, type: 3}
+    shadowIcon: {fileID: 21300000, guid: 0c0cc8b38e8664bff8a016e87da147cb, type: 3}
+    idleFxKey: 
+    idleActiveFxKey: FxGUIMapMetaGemsShine
+    unlockFxKey: FxGUIMapElementUnlock
+    unlockFxKeyScale: {x: 9, y: 9, z: 1}
+  - type: 4
+    activeIcon: {fileID: 21300000, guid: d044dec336087436dae31656eb0dd993, type: 3}
+    disableIcon: {fileID: 21300000, guid: 6114c752b159d4c98a2e37828b00bb58, type: 3}
+    lockedIcon: {fileID: 21300000, guid: d4b070c5b12bc4567b55c7fa4e169324, type: 3}
+    shadowIcon: {fileID: 21300000, guid: afed4fbe816d74d40bdcd2700998d549, type: 3}
+    idleFxKey: 
+    idleActiveFxKey: FxGUIMapMetaForcemeterShine
+    unlockFxKey: FxGUIMapElementUnlock
+    unlockFxKeyScale: {x: 13, y: 13, z: 13}
+  - type: 5
+    activeIcon: {fileID: 21300000, guid: 9534e33618d2f4ab4b36e1f2c910042d, type: 3}
+    disableIcon: {fileID: 21300000, guid: db264d007bf0940759d2fc8790c87c80, type: 3}
+    lockedIcon: {fileID: 21300000, guid: 9534e33618d2f4ab4b36e1f2c910042d, type: 3}
+    shadowIcon: {fileID: 21300000, guid: 7e1ba03cc11b6412dbe15cf2ad07f61f, type: 3}
+    idleFxKey: FxGUIMapBossShineIdle
+    idleActiveFxKey: FxGUIMapBossShineEye
+    unlockFxKey: 
+    unlockFxKeyScale: {x: 13, y: 13, z: 13}
+  lapsCurrencyIconData:
+  - type: 1
+    activeIcon: {fileID: 21300000, guid: c82aeb70b1cc8434ebfc8667ac7b495c, type: 3}
+    claimedIcon: {fileID: 21300000, guid: bf9452cb802a84e0ebaae8debb06af7f, type: 3}
+  - type: 2
+    activeIcon: {fileID: 21300000, guid: 952c3c658e2f74b238e83330d674610b, type: 3}
+    claimedIcon: {fileID: 21300000, guid: 9e999fcf4b11547ca8ea7cfc86b8e223, type: 3}
+  - type: 4
+    activeIcon: {fileID: 21300000, guid: 4905ed1e27ca04d4badca0600778f0d5, type: 3}
+    claimedIcon: {fileID: 21300000, guid: 3d29165610cf446c1b88018a8275f458, type: 3}
+  mapPointShadowForestColor: {r: 0.4862745, g: 0.63529414, b: 0.08235294, a: 0.42745098}
+  mapPointShadowCanyonColor: {r: 0.99215686, g: 0.5647059, b: 0.18039216, a: 0.5686275}
+  materialBlendAnimation:
+    duration: 0.85
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.6
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0
+    endValue: 1
+  materialTextAnimation:
+    duration: 1
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.6
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {r: 1, g: 1, b: 1, a: 1}
+    endValue: {r: 0.7254902, g: 0.47843137, b: 0.9490196, a: 1}
+  activePointBounceAnimation:
+    duration: 0.2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.2
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 1, y: 1, z: 1}
+    endValue: {x: 1.4, y: 1.4, z: 1}
+  finishLineMoveAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.5
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 295, y: 1810, z: 0}
+    endValue: {x: 195, y: 2094, z: 0}
+  playUnlockedAnimationDelay: 0.6
+  swipeAllMapAnimation:
+    duration: 5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0.7
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 0, y: -3684.0999, z: 0}
+    endValue: {x: 0, y: 0, z: 0}
+  swipePointsAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 0, y: 0, z: 0}
+    endValue: {x: 0, y: 0, z: 0}
+  rewardPopupTimeout: 2
+  asset: {fileID: 11400000, guid: 00dd3a38c6d9e864fb5d6ee8257eb4e0, type: 2}
+  noriShotBone: fx_root_snipergun_muzzle_flash
+  noriShotEvent: shot
+  noriProjectilePrefab: {fileID: 105555303505446982, guid: e3b06d53ff66444fb9a9634bfacda20b,
+    type: 3}
+  noriProjectileShotDirections:
+  - {x: 0.5, y: 0.3}
+  - {x: -0.6, y: 0.3}
+  - {x: 0.5, y: -0.1}
+  - {x: -0.5, y: -0.13}
+  - {x: 0.5, y: -0.125}
+  noriProjectileSpeed: 8000
+  noriProjectileShotAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 0
+    loopType: 0
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: {x: 0, y: 0, z: 0}
+    endValue: {x: 0, y: 0, z: 0}

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 174cc9d91eff64195a883160d60470ce, type: 3}
+  m_Name: TutorialSettings
+  m_EditorClassIdentifier: 
+  data:
+  - type: 11
+    mode: 3
+    animationDataAsset: {fileID: 11400000, guid: fcc4f8b8525aa4715b604914649ff13f,
+      type: 2}
+    startAnimation: tutorial_sniper_rifle
+    buttonEnableDelay: 1.8
+  - type: 2
+    mode: 2
+    animationDataAsset: {fileID: 11400000, guid: 17534ea20aa504bc0a8922eaef5af983,
+      type: 2}
+    startAnimation: tutorial_shootgun
+    buttonEnableDelay: 1.8
+  - type: 4
+    mode: 5
+    animationDataAsset: {fileID: 11400000, guid: bc03a9ad3708a402d8d47cca90e42a9d,
+      type: 2}
+    startAnimation: tutorial_gravi_gun
+    buttonEnableDelay: 1.8
+  - type: 7
+    mode: 6
+    animationDataAsset: {fileID: 11400000, guid: ab656921fc24147528d4c12d4626df86,
+      type: 2}
+    startAnimation: tutorial_gportal_gun
+    buttonEnableDelay: 2
+  fingerData:
+  - type: 9
+    fingerAnimator: {fileID: 7340779217982252734, guid: 3d6f8deecbc3545f3a8f4a13f9359714,
+      type: 3}
+  - type: 8
+    fingerAnimator: {fileID: 3816470814424812592, guid: b7cb373d81dfff34ebb3b633c41b58b8,
+      type: 3}
+  - type: 10
+    fingerAnimator: {fileID: 3816470814424812592, guid: 219afe873a8484c238d3a1d23ae6c05f,
+      type: 3}
+  - type: 12
+    fingerAnimator: {fileID: 3816470814424812592, guid: 19118f016bb76354988b6dd4166391a6,
+      type: 3}
+  - type: 14
+    fingerAnimator: {fileID: 7340779217982252734, guid: 243b7e6ce6d8e4dedb40b219026ea63c,
+      type: 3}
+  prefabsData:
+  - type: 13
+    animator: {fileID: 3816470814424812592, guid: ae0ad695cd9d044fe98c72b5e0dd9145,
+      type: 3}

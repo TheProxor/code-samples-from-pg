@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2ea9fe0cd884216b9c5c037c81db6a, type: 3}
+  m_Name: LevelTargetSettings
+  m_EditorClassIdentifier: 
+  minDamageToDie: 30
+  projectilesData:
+  - projectileType: 1
+    baseDamageForLimb: 800
+    projectileCollisionImpuls: 600
+  - projectileType: 2
+    baseDamageForLimb: 920
+    projectileCollisionImpuls: 700
+  - projectileType: 3
+    baseDamageForLimb: 800
+    projectileCollisionImpuls: 600
+  - projectileType: 4
+    baseDamageForLimb: 800
+    projectileCollisionImpuls: 600
+  - projectileType: 5
+    baseDamageForLimb: 0
+    projectileCollisionImpuls: 0
+  - projectileType: 6
+    baseDamageForLimb: 0
+    projectileCollisionImpuls: 0
+  - projectileType: 7
+    baseDamageForLimb: 0
+    projectileCollisionImpuls: 0
+  limbData:
+  - limbType: 1
+    rootBone: head
+    damageToChopOffAllLimbs: 250
+    damageToChopOff: 700
+    damageToExplode: 1487.5
+    damageMultiplier: 1
+    perfectTypeOnProjectileCollision: 1
+    chopOffEffectOnBodyKey: FxBloodHeadShot
+    chopOffEffectOnLimbKey: FxBloodHeadNeck
+    explodeLimbKey: FxBloodHeadShot
+    acidDropEffectKey: FxAcidDestroedCharacterLimb
+    laserDestroyedEffectKey: FxLaserLevelTargetExplosion
+  - limbType: 1
+    rootBone: thigh_l
+    damageToChopOffAllLimbs: 350
+    damageToChopOff: 900
+    damageToExplode: 1500
+    damageMultiplier: 1
+    perfectTypeOnProjectileCollision: 2
+    chopOffEffectOnBodyKey: FxBloodLimbBurst
+    chopOffEffectOnLimbKey: FxBloodLimbBurst
+    explodeLimbKey: FxBloodLimbBurst
+    acidDropEffectKey: FxAcidDestroedCharacterLimb
+    laserDestroyedEffectKey: FxLaserLevelTargetExplosion
+  - limbType: 1
+    rootBone: thigh_r
+    damageToChopOffAllLimbs: 350
+    damageToChopOff: 900
+    damageToExplode: 1500
+    damageMultiplier: 1
+    perfectTypeOnProjectileCollision: 10
+    chopOffEffectOnBodyKey: FxBloodLimbBurst
+    chopOffEffectOnLimbKey: FxBloodLimbBurst
+    explodeLimbKey: FxBloodLimbBurst
+    acidDropEffectKey: FxAcidDestroedCharacterLimb
+    laserDestroyedEffectKey: FxLaserLevelTargetExplosion
+  - limbType: 1
+    rootBone: shoulder_l
+    damageToChopOffAllLimbs: 350
+    damageToChopOff: 900
+    damageToExplode: 1500
+    damageMultiplier: 1
+    perfectTypeOnProjectileCollision: 3
+    chopOffEffectOnBodyKey: FxBloodLimbBurst
+    chopOffEffectOnLimbKey: FxBloodLimbBurst
+    explodeLimbKey: FxBloodLimbBurst
+    acidDropEffectKey: FxAcidDestroedCharacterLimb
+    laserDestroyedEffectKey: FxLaserLevelTargetExplosion
+  - limbType: 1
+    rootBone: shoulder_r
+    damageToChopOffAllLimbs: 350
+    damageToChopOff: 900
+    damageToExplode: 1500
+    damageMultiplier: 1
+    perfectTypeOnProjectileCollision: 10
+    chopOffEffectOnBodyKey: FxBloodLimbBurst
+    chopOffEffectOnLimbKey: FxBloodLimbBurst
+    explodeLimbKey: FxBloodLimbBurst
+    acidDropEffectKey: FxAcidDestroedCharacterLimb
+    laserDestroyedEffectKey: FxLaserLevelTargetExplosion
+  - limbType: 2
+    rootBone: body_char
+    damageToChopOffAllLimbs: 350
+    damageToChopOff: 900
+    damageToExplode: 2000
+    damageMultiplier: 1
+    perfectTypeOnProjectileCollision: 3
+    chopOffEffectOnBodyKey: 
+    chopOffEffectOnLimbKey: 
+    explodeLimbKey: 
+    acidDropEffectKey: FxAcidDestroedCharacterBody
+    laserDestroyedEffectKey: FxLaserLevelTargetExplosion
+  limbPartsData:
+  - rootBone: head
+    impulsMultiplier: 1
+  - rootBone: foot_l
+    impulsMultiplier: 1
+  - rootBone: shin_l
+    impulsMultiplier: 1
+  - rootBone: thigh_l
+    impulsMultiplier: 1
+  - rootBone: foot_r
+    impulsMultiplier: 1
+  - rootBone: shin_r
+    impulsMultiplier: 1
+  - rootBone: thigh_r
+    impulsMultiplier: 1
+  - rootBone: hand_l
+    impulsMultiplier: 1
+  - rootBone: forearm_l
+    impulsMultiplier: 1
+  - rootBone: shoulder_l
+    impulsMultiplier: 1
+  - rootBone: hand_r
+    impulsMultiplier: 1
+  - rootBone: forearm_r
+    impulsMultiplier: 1
+  - rootBone: shoulder_r
+    impulsMultiplier: 1
+  - rootBone: body_char
+    impulsMultiplier: 4
+  - rootBone: shoulder_l_gun
+    impulsMultiplier: 1
+  - rootBone: shoulder_r_gun
+    impulsMultiplier: 1
+  - rootBone: body_char
+    impulsMultiplier: 4
+  bonesTorque:
+  - boneName: thigh_l
+    force: 300
+  - boneName: shin_l
+    force: 100
+  - boneName: thigh_r
+    force: -200
+  - boneName: shin_r
+    force: -50
+  - boneName: shoulder_l
+    force: 500
+  - boneName: forearm_l
+    force: 100
+  - boneName: shoulder_r
+    force: -500
+  - boneName: forearm_r
+    force: -100
+  hittedMinDamageForSkyFallPerfect: 130
+  minDamageForSkyFallPerfect: 50
+  hittedMinDamageForObjectDropPerfect: 550
+  hittedBonesNamesForPerfects:
+  - body_char
+  - head

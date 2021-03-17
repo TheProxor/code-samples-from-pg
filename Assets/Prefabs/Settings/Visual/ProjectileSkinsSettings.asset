@@ -1,0 +1,2636 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20dea21ab11b945a6987e3113e19abd3, type: 3}
+  m_Name: ProjectileSkinsSettings
+  m_EditorClassIdentifier: 
+  pullEffectsData:
+    shapeTypeEffectsData:
+    - objectShapeType: 1
+      objectSizeType: 1
+      startEffectKey: FxWeaponGraviGunCollisionBoxCircle
+      effectKey: FxWeaponGraviGunAuraBox
+      effectsScale: {x: 0.4, y: 0.4, z: 1}
+    - objectShapeType: 1
+      objectSizeType: 2
+      startEffectKey: FxWeaponGraviGunCollisionBoxCircle
+      effectKey: FxWeaponGraviGunAuraBox
+      effectsScale: {x: 0.7, y: 0.7, z: 1}
+    - objectShapeType: 1
+      objectSizeType: 3
+      startEffectKey: FxWeaponGraviGunCollisionBoxCircle
+      effectKey: FxWeaponGraviGunAuraBox
+      effectsScale: {x: 1, y: 1, z: 1}
+    - objectShapeType: 2
+      objectSizeType: 1
+      startEffectKey: FxWeaponGraviGunCollisionBoxCircle
+      effectKey: FxWeaponGraviGunAuraBox
+      effectsScale: {x: 0.4, y: 0.4, z: 1}
+    - objectShapeType: 2
+      objectSizeType: 2
+      startEffectKey: FxWeaponGraviGunCollisionBoxCircle
+      effectKey: FxWeaponGraviGunAuraBox
+      effectsScale: {x: 0.7, y: 0.7, z: 1}
+    - objectShapeType: 2
+      objectSizeType: 3
+      startEffectKey: FxWeaponGraviGunCollisionBoxCircle
+      effectKey: FxWeaponGraviGunAuraBox
+      effectsScale: {x: 1, y: 1, z: 1}
+    - objectShapeType: 3
+      objectSizeType: 1
+      startEffectKey: FxWeaponGraviGunCollisionPlank1
+      effectKey: FxWeaponGraviGunAuraPlank1
+      effectsScale: {x: 1, y: 1, z: 1}
+    - objectShapeType: 3
+      objectSizeType: 2
+      startEffectKey: FxWeaponGraviGunCollisionPlank2
+      effectKey: FxWeaponGraviGunAuraPlank2
+      effectsScale: {x: 1, y: 1, z: 1}
+    - objectShapeType: 3
+      objectSizeType: 3
+      startEffectKey: FxWeaponGraviGunCollisionPlank3
+      effectKey: FxWeaponGraviGunAuraPlank3
+      effectsScale: {x: 1, y: 1, z: 1}
+    - objectShapeType: 5
+      objectSizeType: 2
+      startEffectKey: FxWeaponGraviGunCollisionBarrel
+      effectKey: FxWeaponGraviGunAuraBarrel
+      effectsScale: {x: 1, y: 1, z: 1}
+    - objectShapeType: 4
+      objectSizeType: 1
+      startEffectKey: FxWeaponGraviGunCollisionSpikesTile
+      effectKey: FxWeaponGraviGunAuraSpikeTile
+      effectsScale: {x: 1, y: 1, z: 1}
+  data:
+  - types: 01000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponArcherBowArrow
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Archer_Bow_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Archer_Bow_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Archer_Bow_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Archer_Bow_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Archer_Bow
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: a54ad362cf914406baadbbe6c8fce473,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: a54ad362cf914406baadbbe6c8fce473,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 2034e3bd557a748c287e106923c2ba81,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 8ebc1dd2fa0844056be7f38017bb5fef,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: a54ad362cf914406baadbbe6c8fce473,
+        type: 3}
+  - types: 02000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: ' '
+    trailName: FxTrailWeaponCrossbowBolt
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Crossbow_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Crossbow_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Crossbow_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Crossbow_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Crossbow
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 8f6ed58ce9bd84644a7ff1458810cdd3,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 8f6ed58ce9bd84644a7ff1458810cdd3,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: b1c97a93b21724b27ab5d303417fc608,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 9779e5b3bcb1c48e6b9384ea97d7218e,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 8f6ed58ce9bd84644a7ff1458810cdd3,
+        type: 3}
+  - types: 03000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponSwordfish
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Swordfish_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Swordfish_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Swordfish_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Swordfish_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Swordfish
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: c240530fd80f948c6bd60137c9e49dcd,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: c240530fd80f948c6bd60137c9e49dcd,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: f32c8d78bc6504d6e9e2efbeb61e3f56,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: bce10ea71e0584ec392b483aa4ecc623,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: c240530fd80f948c6bd60137c9e49dcd,
+        type: 3}
+  - types: 04000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponShovel
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Shovel_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Shovel_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Shovel_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Shovel_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Shovel
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 5dcbfb9a51a754d0eb3fc2a720bbd59c,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 5dcbfb9a51a754d0eb3fc2a720bbd59c,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 85c3a73781147461c921ab8c4cac6228,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: e50f0f475c36a467087bbdab835cb94f,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 5dcbfb9a51a754d0eb3fc2a720bbd59c,
+        type: 3}
+  - types: 05000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: ' '
+    trailName: FxTrailWeaponCraftBowArrow
+    effectKeyOnSmash: FxCraftSlimerExplosion
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Craft_Bow_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Craft_Bow_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Craft_Bow_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Craft_Bow_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Craft_Bow
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: c26cf770f896446fcb743bea0343d198,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: c26cf770f896446fcb743bea0343d198,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 1174bcceb3eca48b5937acaf7fa39652,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: cecd871ead0234c5aa56e41689ec3201,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: c26cf770f896446fcb743bea0343d198,
+        type: 3}
+  - types: 06000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponBaguette
+    effectKeyOnSmash: FxWeaponBaguetteCollision
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Baguette_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Baguette_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Baguette_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Baguette_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Baguette
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: c12f4b1e351f94017996f3b3669897a6,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: c12f4b1e351f94017996f3b3669897a6,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 2dbaf48d381324f7b917b149ccd712de,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: d5aa77894bbc841eba434b678aa1968e,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: c12f4b1e351f94017996f3b3669897a6,
+        type: 3}
+  - types: 07000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponKatana
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Katana_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Katana_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Katana_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Katana_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Katana
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: e84f1f55199fe42c3a3cb78c283c7198,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: e84f1f55199fe42c3a3cb78c283c7198,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 483eec0d9a7884fb3ab5592b03c6d04f,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: ef824a4f7e57c4bf1bca1da8db50c1de,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: e84f1f55199fe42c3a3cb78c283c7198,
+        type: 3}
+  - types: 08000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponKunai
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Kunai_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Kunai_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Kunai_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Kunai_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Kunai
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 3fadefef1018741a3a76dd77520aa2f8,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 3fadefef1018741a3a76dd77520aa2f8,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 7c6673185774d461cbe5656276fa4157,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: dfa5dcad33a0447e79bd8c79f8f69723,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 3fadefef1018741a3a76dd77520aa2f8,
+        type: 3}
+  - types: 09000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponMarshmallow
+    effectKeyOnSmash: FxWeaponStickCollision
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Marshmallow_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Marshmallow_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Marshmallow_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Marshmallow_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Marshmallow
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 4054111cbb0b5467c874bcdebafa150b,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 4054111cbb0b5467c874bcdebafa150b,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 6096bc0c2c2fd41ba9989ebd346d1b1e,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 179126d6a12f447be91ac9c40ddda2d3,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 4054111cbb0b5467c874bcdebafa150b,
+        type: 3}
+  - types: 0a000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponPike
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Pike_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Pike_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Pike_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Pike_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Pike
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: ef9acb83b55f54940ab9ed1492089fe2,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: ef9acb83b55f54940ab9ed1492089fe2,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 0e26457747fb447838b16de44fb10231,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: e8afac8ea5a5e4086a376133ea906286,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: ef9acb83b55f54940ab9ed1492089fe2,
+        type: 3}
+  - types: 0b000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponSpear
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Spear_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Spear_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Spear_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Spear_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Spear
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: b046e04db0e504d43b543cde30a9b71a,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: b046e04db0e504d43b543cde30a9b71a,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: b055a10c5b357498cab8ba9d0a90aa46,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 63adfa7d09c0044c388f696e568cbbea,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: b046e04db0e504d43b543cde30a9b71a,
+        type: 3}
+  - types: 0c000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponStick
+    effectKeyOnSmash: FxWeaponStickCollision
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Stick_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Stick_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Stick_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Stick_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Stick
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 1162d55f0c79c495f902d1168f2a6d8c,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 1162d55f0c79c495f902d1168f2a6d8c,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 09cf4098d4a8b471ba07e115e37318a9,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 04950fc0540bd4fc0ad27ab84afff34f,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 1162d55f0c79c495f902d1168f2a6d8c,
+        type: 3}
+  - types: 0d000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponSword
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_Sword_Red
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_Sword_Red
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_Sword_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_Sword_Green
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Sword
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: ca4c0fc23107e4dc18b8ef66ff721145,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: ca4c0fc23107e4dc18b8ef66ff721145,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 74e6ef29b7e0a4affb70884076ba45ea,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 632fe63c389f2416ea334d338edacfa3,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: ca4c0fc23107e4dc18b8ef66ff721145,
+        type: 3}
+  - types: 0e000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponArcherBowArrow
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Ashebow_Red
+    - key: 1
+      skinName: Weapons/Weapon_Ashebow_Red
+    - key: 2
+      skinName: Weapons/Weapon_Ashebow
+    - key: 3
+      skinName: Weapons/Weapon_Ashebow_Green
+    - key: 4
+      skinName: Weapons/Weapon_Ashebow
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: bc9b12737aa52417b9fe3d96d8879a88,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: bc9b12737aa52417b9fe3d96d8879a88,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 9a5f783c3c7804d5c8f93a694c0a0c57,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 02e1f6437fc314ddcabd083578f02043,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: bc9b12737aa52417b9fe3d96d8879a88,
+        type: 3}
+  - types: 0f000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponBanana
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Banana_Red
+    - key: 1
+      skinName: Weapons/Weapon_Banana_Red
+    - key: 2
+      skinName: Weapons/Weapon_Banana_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Banana_Green
+    - key: 4
+      skinName: Weapons/Weapon_Banana
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 04a421da34dd047d3adcb372dc2aeee6,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 04a421da34dd047d3adcb372dc2aeee6,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 7100cb5ed79b948d89248b5d5fcaf98e,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: a69d70ecf506f4cf281b534df317b322,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 04a421da34dd047d3adcb372dc2aeee6,
+        type: 3}
+  - types: 10000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponArcherBowArrow
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Cupidbow_Red
+    - key: 1
+      skinName: Weapons/Weapon_Cupidbow_Red
+    - key: 2
+      skinName: Weapons/Weapon_Cupidbow_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Cupidbow_Green
+    - key: 4
+      skinName: Weapons/Weapon_Cupidbow
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 833fc4e40246d43a6960dfd24a4c3054,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 833fc4e40246d43a6960dfd24a4c3054,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: dd472cdab69e449c9ab0e2dff52f5c12,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 614da2047dd2c4ff99b9d1732da69001,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 833fc4e40246d43a6960dfd24a4c3054,
+        type: 3}
+  - types: 11000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponArcherBowArrow
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Daedricbow_Red
+    - key: 1
+      skinName: Weapons/Weapon_Daedricbow_Red
+    - key: 2
+      skinName: Weapons/Weapon_Daedricbow_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Daedricbow_Green
+    - key: 4
+      skinName: Weapons/Weapon_Daedricbow
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 8d637db5bbf314e3d825310b3ab951f6,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 8d637db5bbf314e3d825310b3ab951f6,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: feea99613369444a99a5c748985346de,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 02309c83f9ec940fc96f8575d902c5c8,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 8d637db5bbf314e3d825310b3ab951f6,
+        type: 3}
+  - types: 12000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponSpear
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Plungerbow_Red
+    - key: 1
+      skinName: Weapons/Weapon_Plungerbow_Red
+    - key: 2
+      skinName: Weapons/Weapon_Plungerbow_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Plungerbow_Green
+    - key: 4
+      skinName: Weapons/Weapon_Plungerbow
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: b57ce677a6326446098470b69aefdb1d,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: b57ce677a6326446098470b69aefdb1d,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 0affb8913edae44cca5d4ce9967ec277,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: d48927301f84e4b329426ebb3847410f,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: b57ce677a6326446098470b69aefdb1d,
+        type: 3}
+  - types: 13000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponKatana
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Sai_Red
+    - key: 1
+      skinName: Weapons/Weapon_Sai_Red
+    - key: 2
+      skinName: Weapons/Weapon_Sai_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Sai_Green
+    - key: 4
+      skinName: Weapons/Weapon_Sai
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: e58f1029d54784a40bb125862242eaaa,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: e58f1029d54784a40bb125862242eaaa,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: eeacc89a158e244349c03189b47f2095,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 93ec8b259a6d84beca7a918200095674,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: e58f1029d54784a40bb125862242eaaa,
+        type: 3}
+  - types: 14000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponArcherBowArrow
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Sportbow_Red
+    - key: 1
+      skinName: Weapons/Weapon_Sportbow_Red
+    - key: 2
+      skinName: Weapons/Weapon_Sportbow
+    - key: 3
+      skinName: Weapons/Weapon_Sportbow_Green
+    - key: 4
+      skinName: Weapons/Weapon_Sportbow
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: ad38c76664ece456b84dca72c3e15a87,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: ad38c76664ece456b84dca72c3e15a87,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: f4186884f7af046adb7a1f8837e96c92,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 90dd731561c0f419092e85d53792efe2,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: ad38c76664ece456b84dca72c3e15a87,
+        type: 3}
+  - types: 15000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponSpear
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Trident_Red
+    - key: 1
+      skinName: Weapons/Weapon_Trident_Red
+    - key: 2
+      skinName: Weapons/Weapon_Trident_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Trident_Green
+    - key: 4
+      skinName: Weapons/Weapon_Trident
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 9cb5b1497161c46cda3a914f3452c579,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 9cb5b1497161c46cda3a914f3452c579,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 4f5b538309bf44e9c8977d1f35474215,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 0b2d2443ce42346c19ab017ba914e8af,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 9cb5b1497161c46cda3a914f3452c579,
+        type: 3}
+  - types: 16000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponKatana
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Drillthrower_Red
+    - key: 1
+      skinName: Weapons/Weapon_Drillthrower_Red
+    - key: 2
+      skinName: Weapons/Weapon_Drillthrower_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Drillthrower_Green
+    - key: 4
+      skinName: Weapons/Weapon_Drillthrower
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 58275d0aa72bd45e48ede5ac2f30f2b5,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 58275d0aa72bd45e48ede5ac2f30f2b5,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 5ac9303ffd97347c0833be14629f2018,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: f24c4f14b6d684c4bbc783401c80b8d8,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 58275d0aa72bd45e48ede5ac2f30f2b5,
+        type: 3}
+  - types: 17000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponKatana
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Shovelthrower_Red
+    - key: 1
+      skinName: Weapons/Weapon_Shovelthrower_Red
+    - key: 2
+      skinName: Weapons/Weapon_Shovelthrower_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Shovelthrower_Green
+    - key: 4
+      skinName: Weapons/Weapon_Shovelthrower
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 5dcbfb9a51a754d0eb3fc2a720bbd59c,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 5dcbfb9a51a754d0eb3fc2a720bbd59c,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 85c3a73781147461c921ab8c4cac6228,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: e50f0f475c36a467087bbdab835cb94f,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 5dcbfb9a51a754d0eb3fc2a720bbd59c,
+        type: 3}
+  - types: 18000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponStick
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Forkthrower_Red
+    - key: 1
+      skinName: Weapons/Weapon_Forkthrower_Red
+    - key: 2
+      skinName: Weapons/Weapon_Forkthrower_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Forkthrower_Green
+    - key: 4
+      skinName: Weapons/Weapon_Forkthrower
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: ba3cc3b10dca9466db67b491a20e4be7,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: ba3cc3b10dca9466db67b491a20e4be7,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: e55fb7169d54649ff9d609982a719034,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 281be67bcb8564767bc1ba8a51eca915,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: ba3cc3b10dca9466db67b491a20e4be7,
+        type: 3}
+  - types: 19000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponBaguette
+    effectKeyOnSmash: FxWeaponBaguetteCollision
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Hotdog_Red
+    - key: 1
+      skinName: Weapons/Weapon_Hotdog_Red
+    - key: 2
+      skinName: Weapons/Weapon_Hotdog_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Hotdog_Green
+    - key: 4
+      skinName: Weapons/Weapon_Hotdog
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 7dfaa63f6c8744cdfaf1b6fa323edea7,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 7dfaa63f6c8744cdfaf1b6fa323edea7,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: fa581d8836ac44ae38526668a0e43de0,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 7221bca6c58f24f18987ccb2c9b15477,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 7dfaa63f6c8744cdfaf1b6fa323edea7,
+        type: 3}
+  - types: 1a000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponOscar
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Oscar_Red
+    - key: 1
+      skinName: Weapons/Weapon_Oscar_Red
+    - key: 2
+      skinName: Weapons/Weapon_Oscar_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Oscar_Green
+    - key: 4
+      skinName: Weapons/Weapon_Oscar
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 63d1506ba09224c9782e29d5f75aec76,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 63d1506ba09224c9782e29d5f75aec76,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 267de877c5dad49fba03fbaa2c4bc4f9,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 9a23066992e8742a7a05322a20299c4f,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 63d1506ba09224c9782e29d5f75aec76,
+        type: 3}
+  - types: 1b000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponPaperairplane
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Paperairplane_Red
+    - key: 1
+      skinName: Weapons/Weapon_Paperairplane_Red
+    - key: 2
+      skinName: Weapons/Weapon_Paperairplane_Blue
+    - key: 3
+      skinName: Weapons/Weapon_Paperairplane_Green
+    - key: 4
+      skinName: Weapons/Weapon_Paperairplane
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 4be068d0ca8bd4758a12e7fb2ac1bfa7,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 4be068d0ca8bd4758a12e7fb2ac1bfa7,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 27f45af5fc18a4a17a39c485cc43c3dc,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: fd0fc9d18405c4ae9af418870f1306e4,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 4be068d0ca8bd4758a12e7fb2ac1bfa7,
+        type: 3}
+  - types: 1c000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponSwordfish
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_colaDefault
+    - key: 1
+      skinName: Weapons/weapon_colaDefault
+    - key: 2
+      skinName: Weapons/weapon_colaBlue
+    - key: 3
+      skinName: Weapons/weapon_colaGreen
+    - key: 4
+      skinName: Weapons/weapon_colaDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 94624a18be5fd43ba832cc3f77b6bc64,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 94624a18be5fd43ba832cc3f77b6bc64,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 99cc38ba8fe0d4c14bfa8106efec6776,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 419a3c3fdbf914b48964592ed5e26009,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 94624a18be5fd43ba832cc3f77b6bc64,
+        type: 3}
+  - types: 1d000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponIcicle
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_icicleRed
+    - key: 1
+      skinName: Weapons/weapon_icicleRed
+    - key: 2
+      skinName: Weapons/weapon_icicleBlue
+    - key: 3
+      skinName: Weapons/weapon_icicleGreen
+    - key: 4
+      skinName: Weapons/weapon_icicleDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 33b980de42b3a45f181c3a56012d59c9,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 33b980de42b3a45f181c3a56012d59c9,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 3f464167713cf4072a6d14a869dcdd40,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: b72d4e97ac95e462a8348a48d5cafbf6,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 33b980de42b3a45f181c3a56012d59c9,
+        type: 3}
+  - types: 1e000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponPetard
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_petardRed
+    - key: 1
+      skinName: Weapons/weapon_petardRed
+    - key: 2
+      skinName: Weapons/weapon_petardBlue
+    - key: 3
+      skinName: Weapons/weapon_petardGreen
+    - key: 4
+      skinName: Weapons/weapon_petardDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 4e907f59aac04415fababb34207616ef,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 4e907f59aac04415fababb34207616ef,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 0a532f75c6f4646c0a162cacc558194e,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 3a4b6f141cb9c43c7bab241267825573,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 4e907f59aac04415fababb34207616ef,
+        type: 3}
+  - types: 1f000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponUmbrella
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_umbrellaDefault
+    - key: 1
+      skinName: Weapons/weapon_umbrellaDefault
+    - key: 2
+      skinName: Weapons/weapon_umbrellaBlue
+    - key: 3
+      skinName: Weapons/weapon_umbrellaGreen
+    - key: 4
+      skinName: Weapons/weapon_umbrellaDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 6cb65d376b2904ecd9cb05a98351cc9e,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 6cb65d376b2904ecd9cb05a98351cc9e,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 2ee7e21c35c6c47d297d92efa9510af5,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 8b8b871c2eb5f45d5a789dc53fdd3a87,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 6cb65d376b2904ecd9cb05a98351cc9e,
+        type: 3}
+  - types: 20000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponStick
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_burningspearRed
+    - key: 1
+      skinName: Weapons/weapon_burningspearRed
+    - key: 2
+      skinName: Weapons/weapon_burningspearBlue
+    - key: 3
+      skinName: Weapons/weapon_burningspearGreen
+    - key: 4
+      skinName: Weapons/weapon_burningspearDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 3f907c4df4a7a43be8f80e96115b6dfe,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 3f907c4df4a7a43be8f80e96115b6dfe,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 3c5f4dbe7b2bb4ed9b812d49745e490b,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: e419c51e9fca8416ba9f920abc459667,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 3f907c4df4a7a43be8f80e96115b6dfe,
+        type: 3}
+  - types: 21000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponCandies
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_candiesRed
+    - key: 1
+      skinName: Weapons/weapon_candiesRed
+    - key: 2
+      skinName: Weapons/weapon_candiesBlue
+    - key: 3
+      skinName: Weapons/weapon_candiesGreen
+    - key: 4
+      skinName: Weapons/weapon_candiesDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: cc7d8f2f2b1cd494c82159ad684a2753,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: cc7d8f2f2b1cd494c82159ad684a2753,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 7ef7c8e69196540b1963e6a2384ccb73,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 34a78a807b664483784360e32a30ddee,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: cc7d8f2f2b1cd494c82159ad684a2753,
+        type: 3}
+  - types: 22000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponFrostmourne
+    effectKeyOnSmash: FxWeaponFrostmourneCollision
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_frostmourneRed
+    - key: 1
+      skinName: Weapons/weapon_frostmourneRed
+    - key: 2
+      skinName: Weapons/weapon_frostmourneBlue
+    - key: 3
+      skinName: Weapons/weapon_frostmourneGreen
+    - key: 4
+      skinName: Weapons/weapon_frostmourneDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 5ea841f2a91934abd8d971468981cd7d,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 5ea841f2a91934abd8d971468981cd7d,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 42ffb64a7e30445ebbe27990f802c98d,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 500fb05d022c147adbf6205870a78871,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 5ea841f2a91934abd8d971468981cd7d,
+        type: 3}
+  - types: 23000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponArcherBowArrow
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_HarpunRed
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_HarpunRed
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_HarpunBlue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_HarpunGreen
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_HarpunDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 2bc943dafacfe4909ac43a6b507bfda8,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 2bc943dafacfe4909ac43a6b507bfda8,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 18156485933a54b41825580cce3753cc,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: a4671f23a4aa34e1db73eabb28830833,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 2bc943dafacfe4909ac43a6b507bfda8,
+        type: 3}
+  - types: 24000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponRocketModel
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_rocketmodelRed
+    - key: 1
+      skinName: Weapons/weapon_rocketmodelRed
+    - key: 2
+      skinName: Weapons/weapon_rocketmodelBlue
+    - key: 3
+      skinName: Weapons/weapon_rocketmodelGreen
+    - key: 4
+      skinName: Weapons/weapon_rocketmodelDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 37c9357ae136c4b9394adba2593a77a3,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 37c9357ae136c4b9394adba2593a77a3,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: be146fb236aa845e69273d6fdae64298,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: bbf4a7bd916864404b6eeefcd5af1eb0,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 37c9357ae136c4b9394adba2593a77a3,
+        type: 3}
+  - types: 25000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponSnickers
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_snickersRed
+    - key: 1
+      skinName: Weapons/weapon_snickersRed
+    - key: 2
+      skinName: Weapons/weapon_snickersBlue
+    - key: 3
+      skinName: Weapons/weapon_snickersGreen
+    - key: 4
+      skinName: Weapons/weapon_snickersDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: dff15cd00a3a944e8905175a58df209e,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: dff15cd00a3a944e8905175a58df209e,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 81e4728f26e3644ada03e0298d55b87f,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: bf91fe326cc164cf78599c59c73218ca,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: dff15cd00a3a944e8905175a58df209e,
+        type: 3}
+  - types: 26000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponSuperCrossbowBolt
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_SuperCrossbowRed
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_SuperCrossbowRed
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_SuperCrossbowBlue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_SuperCrossbowGreen
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_SuperCrossbowDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 9d60e5a41b3fa4b6bb817ed5eaf44bf1,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 9d60e5a41b3fa4b6bb817ed5eaf44bf1,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 16cf791afc4f54b9da429dbf277df096,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 01161216e74d14595aa8e1716340450f,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 9d60e5a41b3fa4b6bb817ed5eaf44bf1,
+        type: 3}
+  - types: 27000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponArcherBowArrow
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_uranusRed
+    - key: 1
+      skinName: Weapons/weapon_uranusRed
+    - key: 2
+      skinName: Weapons/weapon_uranusBlue
+    - key: 3
+      skinName: Weapons/weapon_uranusDefault
+    - key: 4
+      skinName: Weapons/weapon_uranusDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 57e8e85f67f0a403db86bf4665bd7a82,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 57e8e85f67f0a403db86bf4665bd7a82,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 537d19d601d1849a1affb0b83d62bf67,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 2f0fa7efe71df45809d10718892117b5,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 57e8e85f67f0a403db86bf4665bd7a82,
+        type: 3}
+  - types: 28000000
+    vfxBoneName: weapon_fx_3
+    shotEffectKey: FxWeaponGraviGunShot
+    trailName: FxTrailWeaponArcherBowArrow
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: '-'
+    projectilesBetweenCollisionSfx: '-'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: '-'
+    - key: 1
+      skinName: '-'
+    - key: 2
+      skinName: '-'
+    - key: 3
+      skinName: '-'
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Gravigun
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 0}
+    - key: 1
+      projectileSprite: {fileID: 0}
+    - key: 2
+      projectileSprite: {fileID: 0}
+    - key: 3
+      projectileSprite: {fileID: 0}
+    - key: 4
+      projectileSprite: {fileID: 0}
+  - types: 29000000
+    vfxBoneName: weapon_fx_6
+    shotEffectKey: FxWeaponShotGunShot
+    trailName: FxTrailWeaponShotgunBullet
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: '-'
+    projectilesBetweenCollisionSfx: '-'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: Shotgun
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: '-'
+    - key: 1
+      skinName: '-'
+    - key: 2
+      skinName: '-'
+    - key: 3
+      skinName: '-'
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Shotgun
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 0}
+    - key: 1
+      projectileSprite: {fileID: 0}
+    - key: 2
+      projectileSprite: {fileID: 0}
+    - key: 3
+      projectileSprite: {fileID: 0}
+    - key: 4
+      projectileSprite: {fileID: 0}
+  - types: 2a000000
+    vfxBoneName: weapon_fx_8
+    shotEffectKey: FxWeaponSniperRiffleShot
+    trailName: FxTrailWeaponSniperBullet
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: '-'
+    projectilesBetweenCollisionSfx: '-'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: Sniper_1
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: '-'
+    - key: 1
+      skinName: '-'
+    - key: 2
+      skinName: '-'
+    - key: 3
+      skinName: '-'
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 0}
+    - key: 1
+      projectileSprite: {fileID: 0}
+    - key: 2
+      projectileSprite: {fileID: 0}
+    - key: 3
+      projectileSprite: {fileID: 0}
+    - key: 4
+      projectileSprite: {fileID: 0}
+  - types: 2b000000
+    vfxBoneName: weapon_fx_2
+    shotEffectKey: FxWeaponPortalGunShotGreen
+    trailName: FxTrailWeaponArcherBowArrow
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: '-'
+    projectilesBetweenCollisionSfx: '-'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: '-'
+    - key: 1
+      skinName: '-'
+    - key: 2
+      skinName: '-'
+    - key: 3
+      skinName: '-'
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_Portalgun
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 0}
+    - key: 1
+      projectileSprite: {fileID: 0}
+    - key: 2
+      projectileSprite: {fileID: 0}
+    - key: 3
+      projectileSprite: {fileID: 0}
+    - key: 4
+      projectileSprite: {fileID: 0}
+  - types: 2c000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponHltool
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_hltoolDefault
+    - key: 1
+      skinName: Weapons/weapon_hltoolDefault
+    - key: 2
+      skinName: Weapons/weapon_hltoolBlue
+    - key: 3
+      skinName: Weapons/weapon_hltoolGreen
+    - key: 4
+      skinName: Weapons/weapon_hltoolDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: e93db63d4c747451fbed7b1abd6ebe4c,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: e93db63d4c747451fbed7b1abd6ebe4c,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 6c2ed74bfa8d343129057c2c30a47e18,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 75b184f2c92424eda814553947a909cb,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: e93db63d4c747451fbed7b1abd6ebe4c,
+        type: 3}
+  - types: 2d000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponPencil
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_injectorDefault
+    - key: 1
+      skinName: Weapons/weapon_injectorDefault
+    - key: 2
+      skinName: Weapons/weapon_injectorBlue
+    - key: 3
+      skinName: Weapons/weapon_injectorGreen
+    - key: 4
+      skinName: Weapons/weapon_injectorDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 3c62d971033ed480186c9cab7249e24e,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 3c62d971033ed480186c9cab7249e24e,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 3efd882701a2841a58d0f2417a427d92,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 6461d4608c31240daad6c9a725b1c7b6,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 3c62d971033ed480186c9cab7249e24e,
+        type: 3}
+  - types: 2e000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponPencil
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_pencilRed
+    - key: 1
+      skinName: Weapons/weapon_pencilRed
+    - key: 2
+      skinName: Weapons/weapon_pencilBlue
+    - key: 3
+      skinName: Weapons/weapon_pencilGreen
+    - key: 4
+      skinName: Weapons/weapon_pencilDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 5b8c2367f2a524628ba4d47c313dbbaf,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 5b8c2367f2a524628ba4d47c313dbbaf,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 6982d7ac449464a65a92b878e91c1c80,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 856e15aa32ad24f39826ff9cd894e374,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 5b8c2367f2a524628ba4d47c313dbbaf,
+        type: 3}
+  - types: 2f000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponRocketModel
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_faurocketRed
+    - key: 1
+      skinName: Weapons/weapon_faurocketRed
+    - key: 2
+      skinName: Weapons/weapon_faurocketDefault
+    - key: 3
+      skinName: Weapons/weapon_faurocketGreen
+    - key: 4
+      skinName: Weapons/weapon_faurocketDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: fc03f2e6a75d34dff9802f5b30649df1,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: fc03f2e6a75d34dff9802f5b30649df1,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 97d54f415c6d944088df538d80d1e92b,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: b631eb5fee38b40b7a0140361e5edf25,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: fc03f2e6a75d34dff9802f5b30649df1,
+        type: 3}
+  - types: 30000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponPaperairplane
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_gibsonguitarDefault
+    - key: 1
+      skinName: Weapons/weapon_gibsonguitarDefault
+    - key: 2
+      skinName: Weapons/weapon_gibsonguitarBlue
+    - key: 3
+      skinName: Weapons/weapon_gibsonguitarGreen
+    - key: 4
+      skinName: Weapons/weapon_gibsonguitarDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 5e097f8814daf499d8eb687f3698a85c,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 5e097f8814daf499d8eb687f3698a85c,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 3cc9ae8e1c3354865a5234ea9fdd63fe,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 64370e9fa4dd04051be17e193fa84ab8,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 5e097f8814daf499d8eb687f3698a85c,
+        type: 3}
+  - types: 31000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponChainsword
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_chainswordDefault
+    - key: 1
+      skinName: Weapons/weapon_chainswordDefault
+    - key: 2
+      skinName: Weapons/weapon_chainswordBlue
+    - key: 3
+      skinName: Weapons/weapon_chainswordGreen
+    - key: 4
+      skinName: Weapons/weapon_chainswordDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 5a4ba761e087541098dd5e51f96fdc24,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 5a4ba761e087541098dd5e51f96fdc24,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 6710120732b684502b5c47bb0be0e22c,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: d89280ebaf4d94692a87b74cb381f02d,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 5a4ba761e087541098dd5e51f96fdc24,
+        type: 3}
+  - types: 32000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponCarrot
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_CarrotgunRed
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_CarrotgunRed
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_CarrotgunBlue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_CarrotgunDefault
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_CarrotgunDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 56176ee0f19544c64861695dea681fba,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 56176ee0f19544c64861695dea681fba,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 14d10700a854a40f682c8d1f3084523d,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: d913b103ba2bb452996a0be38b927b79,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 56176ee0f19544c64861695dea681fba,
+        type: 3}
+  - types: 33000000
+    vfxBoneName: weapon_fx_1
+    shotEffectKey: 
+    trailName: FxTrailWeaponLogthrower
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/Weapon_Snipergun_LogthrowerDefault
+    - key: 1
+      skinName: Weapons/Weapon_Snipergun_LogthrowerDefault
+    - key: 2
+      skinName: Weapons/Weapon_Snipergun_LogthrowerBlue
+    - key: 3
+      skinName: Weapons/Weapon_Snipergun_LogthrowerGreen
+    - key: 4
+      skinName: Weapons/Weapon_Snipergun_LogthrowerDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 5f6bac512f1ee49a396c62efd42b8cc2,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 5f6bac512f1ee49a396c62efd42b8cc2,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: e3b0de157e4c54b398aedb10151f70d2,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 8914cdc84e8224c70af5239ed7d473eb,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 5f6bac512f1ee49a396c62efd42b8cc2,
+        type: 3}
+  - types: 34000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponFirehydrant
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_firehydrantDefault
+    - key: 1
+      skinName: Weapons/weapon_firehydrantDefault
+    - key: 2
+      skinName: Weapons/weapon_firehydrantBlue
+    - key: 3
+      skinName: Weapons/weapon_firehydrantGreen
+    - key: 4
+      skinName: Weapons/weapon_firehydrantDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 31eee0e93e89d403b9faa848e1e4d990,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 31eee0e93e89d403b9faa848e1e4d990,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: e5a0e3481e6734df7a53be1b130b56e9,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 1e3ae9d795f684a02b46cbe1dff06676,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 31eee0e93e89d403b9faa848e1e4d990,
+        type: 3}
+  - types: 35000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponGnome
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_gnomeDefault
+    - key: 1
+      skinName: Weapons/weapon_gnomeDefault
+    - key: 2
+      skinName: Weapons/weapon_gnomeBlue
+    - key: 3
+      skinName: Weapons/weapon_gnomeGreen
+    - key: 4
+      skinName: Weapons/weapon_gnomeDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 92dae90f04cc6462e804a10cf6d07aaa,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 92dae90f04cc6462e804a10cf6d07aaa,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: ec200127aa9704f989fcefdfa577e97b,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: d7e98da27d6674cefb117f2926d0de68,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 92dae90f04cc6462e804a10cf6d07aaa,
+        type: 3}
+  - types: 36000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponHaloblade
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_halobladeRed
+    - key: 1
+      skinName: Weapons/weapon_halobladeRed
+    - key: 2
+      skinName: Weapons/weapon_halobladeDefault
+    - key: 3
+      skinName: Weapons/weapon_halobladeGreen
+    - key: 4
+      skinName: Weapons/weapon_halobladeDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 700b0470a223d4bd18629764a8f5c428,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 700b0470a223d4bd18629764a8f5c428,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 6cae9516cd9294937940f4a88c0a5fee,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 2b859a52956a642ea8738297c49f4f1e,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 700b0470a223d4bd18629764a8f5c428,
+        type: 3}
+  - types: 37000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponKarambit
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_karambitRed
+    - key: 1
+      skinName: Weapons/weapon_karambitRed
+    - key: 2
+      skinName: Weapons/weapon_karambitDefault
+    - key: 3
+      skinName: Weapons/weapon_karambitGreen
+    - key: 4
+      skinName: Weapons/weapon_karambitDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 378758b0b841b45b0b4e1c61afdae1aa,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 378758b0b841b45b0b4e1c61afdae1aa,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 6a5f93011f9a64d38aa446dfa3f20e43,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 8911b4f58f23a46788138a70f1a075a6,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 378758b0b841b45b0b4e1c61afdae1aa,
+        type: 3}
+  - types: 38000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponRapier
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_rapierRed
+    - key: 1
+      skinName: Weapons/weapon_rapierRed
+    - key: 2
+      skinName: Weapons/weapon_rapierBlue
+    - key: 3
+      skinName: Weapons/weapon_rapierGreen
+    - key: 4
+      skinName: Weapons/weapon_rapierDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: d22a093212763408993fdee3687b3dc4,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: d22a093212763408993fdee3687b3dc4,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 9035cd65df8de42beb7d316883f407cf,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: d8e49bae1b060453a87fbb4abd98a04c,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: d22a093212763408993fdee3687b3dc4,
+        type: 3}
+  - types: 39000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponRustynail
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_rustynailRed
+    - key: 1
+      skinName: Weapons/weapon_rustynailRed
+    - key: 2
+      skinName: Weapons/weapon_rustynailBlue
+    - key: 3
+      skinName: Weapons/weapon_rustynailGreen
+    - key: 4
+      skinName: Weapons/weapon_rustynailDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 61efa6c88a60543a1b2d9c9c7ba96064,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 61efa6c88a60543a1b2d9c9c7ba96064,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 6a1e210161a994d77a30cb2afba44bae,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: abe2986cafe6c4826bdf8eda89dccd19,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 61efa6c88a60543a1b2d9c9c7ba96064,
+        type: 3}
+  - types: 3a000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponTvpult
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_tvpultRed
+    - key: 1
+      skinName: Weapons/weapon_tvpultRed
+    - key: 2
+      skinName: Weapons/weapon_tvpultBlue
+    - key: 3
+      skinName: Weapons/weapon_tvpultGreen
+    - key: 4
+      skinName: Weapons/weapon_tvpultDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 6720985b61a8d4af8b3c3be26bb19edb,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 6720985b61a8d4af8b3c3be26bb19edb,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 3f87045f2506b4981acb276e18b93a91,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 9736d2f1e9f1e4dfc9f6447fd55b0de1,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 6720985b61a8d4af8b3c3be26bb19edb,
+        type: 3}
+  - types: 3b000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponWoodpecker
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_woodpeckerRed
+    - key: 1
+      skinName: Weapons/weapon_woodpeckerRed
+    - key: 2
+      skinName: Weapons/weapon_woodpeckerBlue
+    - key: 3
+      skinName: Weapons/weapon_woodpeckerGreen
+    - key: 4
+      skinName: Weapons/weapon_woodpeckerDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 87730264a91e640abbe88c19f45c0e7a,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 87730264a91e640abbe88c19f45c0e7a,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: db752fe9951ba4f3cbbeea722e464b23,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 7e72b7192d1434302a653539b5defb90,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 87730264a91e640abbe88c19f45c0e7a,
+        type: 3}
+  - types: 3c000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponWowsword
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_wowswordRed
+    - key: 1
+      skinName: Weapons/weapon_wowswordRed
+    - key: 2
+      skinName: Weapons/weapon_wowswordDefault
+    - key: 3
+      skinName: Weapons/weapon_wowswordGreen
+    - key: 4
+      skinName: Weapons/weapon_wowswordDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 6310a452d473147f58019d1963337baa,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 6310a452d473147f58019d1963337baa,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 229e1b6e3a704451a993855bbdd05af9,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 3e11cb95692d04ff9ab91ce94c6295c9,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 6310a452d473147f58019d1963337baa,
+        type: 3}
+  - types: 3d000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponPencil
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_armyknifeRed
+    - key: 1
+      skinName: Weapons/weapon_armyknifeRed
+    - key: 2
+      skinName: Weapons/weapon_armyknifeBlue
+    - key: 3
+      skinName: Weapons/weapon_armyknifeDefault
+    - key: 4
+      skinName: Weapons/weapon_armyknifeDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 850eaf61ba403418f95a3d658514ab2c,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 850eaf61ba403418f95a3d658514ab2c,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: c87a51a08a7d34c719646e8ca65dcf06,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: a27db19f4e9ef46148ae1b7012a00aba,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 850eaf61ba403418f95a3d658514ab2c,
+        type: 3}
+  - types: 3e000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponPencil
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_cactusRed
+    - key: 1
+      skinName: Weapons/weapon_cactusRed
+    - key: 2
+      skinName: Weapons/weapon_cactusBlue
+    - key: 3
+      skinName: Weapons/weapon_cactusDefault
+    - key: 4
+      skinName: Weapons/weapon_cactusDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 4be738744951b478b9c887331bc7a52f,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 4be738744951b478b9c887331bc7a52f,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 995f9bd3e55fc4828a6c1d075287022b,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 6c8b75980f3db452bbe1ce60803446e0,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 4be738744951b478b9c887331bc7a52f,
+        type: 3}
+  - types: 3f000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponKitchenknife
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_kitchenknifeDefault
+    - key: 1
+      skinName: Weapons/weapon_kitchenknifeDefault
+    - key: 2
+      skinName: Weapons/weapon_kitchenknifeBlue
+    - key: 3
+      skinName: Weapons/weapon_kitchenknifeGreen
+    - key: 4
+      skinName: Weapons/weapon_kitchenknifeDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 53e12ae5bde584e688fd12922fa30479,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 53e12ae5bde584e688fd12922fa30479,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 2a88488d240bf4fe2803466a4c9de791,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 30bf6ffc9cf584287afa87ee40f378bf,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 53e12ae5bde584e688fd12922fa30479,
+        type: 3}
+  - types: 40000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponLinksword
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_linkswordRed
+    - key: 1
+      skinName: Weapons/weapon_linkswordRed
+    - key: 2
+      skinName: Weapons/weapon_linkswordDefault
+    - key: 3
+      skinName: Weapons/weapon_linkswordGreen
+    - key: 4
+      skinName: Weapons/weapon_linkswordDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 56b5b2400c3a14641b04ad34aaecf708,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 56b5b2400c3a14641b04ad34aaecf708,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: d296cf033ed984f0ca4f4195a48a9485,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: d9a84df13ebec44d28b4c0860bb451e9,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 56b5b2400c3a14641b04ad34aaecf708,
+        type: 3}
+  - types: 41000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponSnake
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_snakeRed
+    - key: 1
+      skinName: Weapons/weapon_snakeRed
+    - key: 2
+      skinName: Weapons/weapon_snakeBlue
+    - key: 3
+      skinName: Weapons/weapon_snakeDefault
+    - key: 4
+      skinName: Weapons/weapon_snakeDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: f87bb364ff1b045e2b0234edf29cf5e0,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: f87bb364ff1b045e2b0234edf29cf5e0,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: 5f68f0588be284c0caf6e72600d1140c,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: cd8131db24d6e48ce83e349ea706ab9c,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: f87bb364ff1b045e2b0234edf29cf5e0,
+        type: 3}
+  - types: 42000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponFirehydrant
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_spikybatRed
+    - key: 1
+      skinName: Weapons/weapon_spikybatRed
+    - key: 2
+      skinName: Weapons/weapon_spikybatBlue
+    - key: 3
+      skinName: Weapons/weapon_spikybatGreen
+    - key: 4
+      skinName: Weapons/weapon_spikybatDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: b8ccfd35970e04b73b52e735e06e7c2d,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: b8ccfd35970e04b73b52e735e06e7c2d,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: f245588d250c6402199377923350bc0f,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: eecb8664e635f4445a003e5ce81a676e,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: b8ccfd35970e04b73b52e735e06e7c2d,
+        type: 3}
+  - types: 43000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponZombiehand
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_zombiehandRed
+    - key: 1
+      skinName: Weapons/weapon_zombiehandRed
+    - key: 2
+      skinName: Weapons/weapon_zombiehandBlue
+    - key: 3
+      skinName: Weapons/weapon_zombiehandDefault
+    - key: 4
+      skinName: Weapons/weapon_zombiehandDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 90160e32f368f43b6ac2b5fed009e89a,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 90160e32f368f43b6ac2b5fed009e89a,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: f9a7964c30d994e9780745bebf5953df,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 812c9411c7f5d4eb1bc41edabfa31895,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 90160e32f368f43b6ac2b5fed009e89a,
+        type: 3}
+  - types: 44000000
+    vfxBoneName: weapon_fx_5
+    shotEffectKey: 
+    trailName: FxTrailWeaponPencil
+    effectKeyOnSmash: FxRicochetBullet
+    levelTargetCollisionSfx: ' arrows_breaks'
+    projectilesBetweenCollisionSfx: ' arrows_breaks'
+    soundEffectKeyOnDestroy: []
+    shotSoundEffectName: wpn_crossbow_shot
+    reloadSoundEffectName: 
+    aimRayOffset: 0
+    skinsData:
+    - key: 0
+      skinName: Weapons/weapon_imposterKnifeDefault
+    - key: 1
+      skinName: Weapons/weapon_imposterKnifeDefault
+    - key: 2
+      skinName: Weapons/weapon_imposterKnifeBlue
+    - key: 3
+      skinName: Weapons/weapon_imposterKnifeGreen
+    - key: 4
+      skinName: Weapons/weapon_imposterKnifeDefault
+    projectilesData:
+    - key: 0
+      projectileSprite: {fileID: 21300000, guid: 3dd47064272dc4a47b8112964b393968,
+        type: 3}
+    - key: 1
+      projectileSprite: {fileID: 21300000, guid: 3dd47064272dc4a47b8112964b393968,
+        type: 3}
+    - key: 2
+      projectileSprite: {fileID: 21300000, guid: c91950b24aef1400c9556cc2b9acf018,
+        type: 3}
+    - key: 3
+      projectileSprite: {fileID: 21300000, guid: 17306ec0539dd4c23bbd87c7b4559f71,
+        type: 3}
+    - key: 4
+      projectileSprite: {fileID: 21300000, guid: 3dd47064272dc4a47b8112964b393968,
+        type: 3}

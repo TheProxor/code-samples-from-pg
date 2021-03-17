@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 090000000d000000
+  lastScan: 637375156652475267
+  supportSerializedTypes:
+  - TypeName: AssetLink, Modules.General
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.AssetLinkWrapper, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.BonusLevelAnimationComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.BonusLevelTrailComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.BonusLevelVisualComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Boolean, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.BoxCollider2D, UnityEngine.Physics2DModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.BoxCollider2D[], UnityEngine.Physics2DModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Collider2D, UnityEngine.Physics2DModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Collider2D[], UnityEngine.Physics2DModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.CollidersFitSpikesComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.CollisionNotifier, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.ConnectedObjectComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.ContentStorage+LevelObjectItem, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: CurrencyType, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.CustomPrefabType, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.DamageSpikesComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.DestroyVfxComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Drawmasters.CustomPrefabType,
+      Drawmasters],[Drawmasters.AssetLinkWrapper, Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Drawmasters.GameMode, Drawmasters],[Drawmasters.AssetLinkWrapper,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Drawmasters.PopupType, Drawmasters],[Drawmasters.AssetLinkWrapper,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Drawmasters.Levels.ProjectileType,
+      Drawmasters],[Drawmasters.AssetLinkWrapper, Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[Drawmasters.ScreenType, Drawmasters],[Drawmasters.AssetLinkWrapper,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.DynamiteExplosion, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Drawmasters.CustomPrefabType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Drawmasters.GameMode,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Drawmasters.PopupType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Drawmasters.Levels.ProjectileType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.EnumEqualityComparer`1[[Drawmasters.ScreenType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.FixedJointObjectComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.GameMode, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Drawmasters.CustomPrefabType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Drawmasters.GameMode,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Drawmasters.PopupType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Drawmasters.Levels.ProjectileType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[Drawmasters.ScreenType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.LevelFieldComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.LevelTargetSlowSpikesComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Drawmasters.ContentStorage+LevelObjectItem,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Drawmasters.Levels.PhysicalLevelObjectComponent,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[Drawmasters.Levels.ProjectileType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.ValueTuple`2[[CurrencyType,
+      Drawmasters],[UnityEngine.Sprite, UnityEngine.CoreModule]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.MonolithCollisionSoundComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.MonolithHitSound, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.MonolithImpulsDestroyComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.PhysicalLevelObjectComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.PhysicalObjectImpulsDestroyComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.PhysicalObjectRopeConnectComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.PopupType, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.ProjectileType, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.RewardCollectComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.RewardCollectVisualComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.ScreenType, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.ShooterColorType, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Spine.Unity.SkeletonAnimation, Modules.Spine
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Sprite, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.SpriteRenderer, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String[], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.Transform, UnityEngine.CoreModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.ValueTuple`2[[CurrencyType, Drawmasters],[UnityEngine.Sprite,
+      UnityEngine.CoreModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.ValueTuple`2[[System.String, mscorlib],[Drawmasters.Levels.ShooterColorType,
+      Drawmasters]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.ValueTuple`2[[System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+      PublicKeyToken=b77a5c561934e089],[Drawmasters.Levels.ShooterColorType, Drawmasters,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.ValueTuple`2[[UnityEngine.Transform, UnityEngine.CoreModule],[System.String,
+      mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.ValueTuple`2[[UnityEngine.Transform, UnityEngine.CoreModule,
+      Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, mscorlib,
+      Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]][], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.VisualDecalSpikesComponent, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.WeaponAnimatedDestroy, Drawmasters
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Drawmasters.Levels.WeaponDestroy, Drawmasters
+    IsCustom: 0
+    Emit: 1

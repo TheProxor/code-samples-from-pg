@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad00270331fd479e8342f626098d150, type: 3}
+  m_Name: DynamiteSettings
+  m_EditorClassIdentifier: 
+  constructorVisualRenderer: {fileID: 7210556297554508254, guid: 0cb6a668a3a5e4098ab02b20c6de5cdb,
+    type: 3}
+  explosionDataList:
+  - explosionData:
+      radius: 35
+      explosionForce: 5000
+      enemyExplosionForce: 4500
+      distanceDependence:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 1
+          outSlope: -0.5
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.5
+          inSlope: -0.5
+          outSlope: 1
+          tangentMode: 5
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      damage: 9000
+      enemyDamage: 1000
+    data: {fileID: 11400000, guid: 4ff624d6890b247d69bb06ca55aa9a1b, type: 2}
+  - explosionData:
+      radius: 50
+      explosionForce: 8000
+      enemyExplosionForce: 7000
+      distanceDependence:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 1
+          outSlope: -0.5
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.5
+          inSlope: -0.5
+          outSlope: 1
+          tangentMode: 5
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      damage: 9000
+      enemyDamage: 1000
+    data: {fileID: 11400000, guid: f32f18c8366344187b92f50eab6a013f, type: 2}
+  - explosionData:
+      radius: 35
+      explosionForce: 5000
+      enemyExplosionForce: 4500
+      distanceDependence:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 1
+          outSlope: -0.5
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.5
+          inSlope: -0.5
+          outSlope: 1
+          tangentMode: 5
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      damage: 9000
+      enemyDamage: 1000
+    data: {fileID: 11400000, guid: 2cc5adb3c247743bdbf6e96e52bb0f38, type: 2}
+  - explosionData:
+      radius: 50
+      explosionForce: 8000
+      enemyExplosionForce: 7000
+      distanceDependence:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 1
+          outSlope: -0.5
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.5
+          inSlope: -0.5
+          outSlope: 1
+          tangentMode: 5
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      damage: 9000
+      enemyDamage: 1000
+    data: {fileID: 11400000, guid: dec3341e58ac04386b902444b0011e72, type: 2}
+  - explosionData:
+      radius: 50
+      explosionForce: 7500
+      enemyExplosionForce: 7000
+      distanceDependence:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: -1
+          tangentMode: 65
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -1
+          outSlope: 0
+          tangentMode: 5
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      damage: 9000
+      enemyDamage: 1000
+    data: {fileID: 11400000, guid: 053e6fb8e0aee433194db231555378da, type: 2}
+  explosionProjectileDataList:
+  - explosionData:
+      radius: 20
+      explosionForce: 5000
+      enemyExplosionForce: 4500
+      distanceDependence:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 1
+          outSlope: -0.5
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.5
+          inSlope: -0.5
+          outSlope: 1
+          tangentMode: 5
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      damage: 9000
+      enemyDamage: 1000
+    projectileType: 2
+  - explosionData:
+      radius: 20
+      explosionForce: 2300
+      enemyExplosionForce: 1700
+      distanceDependence:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 1
+          outSlope: -0.5
+          tangentMode: 69
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0.5
+          inSlope: -0.5
+          outSlope: 1
+          tangentMode: 5
+          weightedMode: 0
+          inWeight: 0.33333334
+          outWeight: 0.33333334
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      damage: 6000
+      enemyDamage: 1000
+    projectileType: 7

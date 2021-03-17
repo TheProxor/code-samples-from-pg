@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9600d533547c05f4dadcd54eb77d4c83, type: 3}
+  m_Name: ColorSchemeManager
+  m_EditorClassIdentifier: 
+  colorSchemes:
+  - displayName: "\u0410\u043D\u043E\u043D\u0441\u0435\u0440"
+    id: d886cb31-b212-4646-8339-0bff1c238cd6
+    targets:
+    - displayName: "\u0426\u0432\u0435\u0442 \u0410\u043D\u043E\u043D\u0441\u0435\u0440\u0430"
+      id: 3a9c8a45-9c5e-485f-b177-0af3d0499bab
+      type: 0
+      materialSet:
+        adapters:
+        - material: {fileID: 2100000, guid: 61233866cf9a94646b7337acf1e066d1, type: 2}
+          shaderParams:
+          - _Color
+        displayParams:
+        - Color
+    - displayName: 
+      id: a05c29ad-214d-4032-9347-07346b9980a6
+      type: 0
+      materialSet:
+        adapters:
+        - material: {fileID: 2100000, guid: 61233866cf9a94646b7337acf1e066d1, type: 2}
+          shaderParams:
+          - _Color
+        displayParams:
+        - _Color
+    presets:
+    - displayName: "\u0426\u0432\u0435\u0442"
+      id: f0dd26e5-3cf1-49ce-8140-4dda406efc53
+      colorKeys:
+      - 3a9c8a45-9c5e-485f-b177-0af3d0499bab.0
+      - a05c29ad-214d-4032-9347-07346b9980a6.0
+      colorVals:
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+    activePreset: 0
+  - displayName: UI
+    id: 29c18908-8838-495b-9088-5bfe002455d8
+    targets:
+    - displayName: "\u041A\u043D\u043E\u043F\u043A\u0438"
+      id: cf014a94-cc71-4188-b263-3ec5daacc25e
+      type: 0
+      materialSet:
+        adapters:
+        - material: {fileID: 2100000, guid: 79dc44e546d734c9fa048e8dd5a0b05b, type: 2}
+          shaderParams:
+          - _Color
+        displayParams:
+        - "\u0426\u0432\u0435\u0442"
+    - displayName: "\u0422\u0435\u043D\u044C"
+      id: 755ef755-4c3d-440a-8c0b-cfe9c676baff
+      type: 0
+      materialSet:
+        adapters:
+        - material: {fileID: 2100000, guid: d503dcdc90cee40e9a846ea594a15e05, type: 2}
+          shaderParams:
+          - _Color
+        displayParams:
+        - "\u0426\u0432\u0435\u0442"
+    presets:
+    - displayName: "\u0426\u0432\u0435\u0442"
+      id: 62785e85-8ef5-4114-acb1-cf374bd9e4cd
+      colorKeys:
+      - cf014a94-cc71-4188-b263-3ec5daacc25e.0
+      - 755ef755-4c3d-440a-8c0b-cfe9c676baff.0
+      colorVals:
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 0.1254902, g: 0.0627451, b: 0.4392157, a: 0.29803923}
+    activePreset: 0
+  - displayName: "\u0417\u0435\u043C\u043B\u044F (\u041C\u043E\u043D\u043E\u043B\u0438\u0442)"
+    id: a5dc8a43-3785-45eb-b5cd-8d2a7988df56
+    targets:
+    - displayName: "\u0426\u0432\u0435\u0442 \u0432\u043D\u0443\u0442\u0440\u0438"
+      id: a740fa8f-c703-4924-a97f-6e72521ca9c7
+      type: 0
+      materialSet:
+        adapters:
+        - material: {fileID: 2100000, guid: c303b9cd84b514f26936c9943fc44b25, type: 2}
+          shaderParams:
+          - _Color
+        displayParams:
+        - "\u0426\u0432\u0435\u0442"
+    - displayName: "\u0426\u0432\u0435\u0442 \u043A\u0440\u0430\u0435\u0432"
+      id: 7f7d6a91-c938-4eae-9283-8285ff55df2d
+      type: 0
+      materialSet:
+        adapters:
+        - material: {fileID: 2100000, guid: 17f33cdb1e89c4aa8b59c61862798659, type: 2}
+          shaderParams:
+          - _Color
+        displayParams:
+        - "\u0426\u0432\u0435\u0442"
+    presets:
+    - displayName: "\u0426\u0432\u0435\u0442"
+      id: 6d8d3da5-8439-4614-8a60-d044ca8cd089
+      colorKeys:
+      - a740fa8f-c703-4924-a97f-6e72521ca9c7.0
+      - 7f7d6a91-c938-4eae-9283-8285ff55df2d.0
+      - 2a91440c-c776-4e8d-bdaf-44c286714ce8.0
+      colorVals:
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+      - {r: 1, g: 1, b: 1, a: 1}
+    activePreset: 0
+  - displayName: "\u0411\u044D\u043A\u0433\u0440\u0430\u0443\u043D\u0434"
+    id: 62043247-999e-4f56-8094-aea278b3c567
+    targets:
+    - displayName: "\u0426\u0432\u0435\u0442"
+      id: dec03952-82c6-4a0b-81ac-89fe29ceaf46
+      type: 0
+      materialSet:
+        adapters:
+        - material: {fileID: 2100000, guid: a83c76f806ad74f95a33f60defb0c596, type: 2}
+          shaderParams:
+          - _Color
+        displayParams:
+        - "\u0426\u0432\u0435\u0442"
+    presets:
+    - displayName: "\u0426\u0432\u0435\u0442"
+      id: a5dc2d1a-ee89-471d-9fb7-306088feb416
+      colorKeys:
+      - dec03952-82c6-4a0b-81ac-89fe29ceaf46.0
+      colorVals:
+      - {r: 1, g: 1, b: 1, a: 1}
+    activePreset: 0

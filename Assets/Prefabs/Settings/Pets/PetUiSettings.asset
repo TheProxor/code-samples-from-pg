@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a19276363e16a456f837bc2f844cbf3a, type: 3}
+  m_Name: PetUiSettings
+  m_EditorClassIdentifier: 
+  data:
+  - key: 1
+    skeletonDataAsset: {fileID: 11400000, guid: 73a03be12caddf94cabcca73aa3ab1b9,
+      type: 2}
+    idleFxKey: 
+    idleFxKeyBoneName: 
+    sprite: {fileID: 21300000, guid: 4b1f206e7d4be42bfbf2eec1acaf7804, type: 3}
+    smallBarSprite: {fileID: 21300000, guid: 2c3f9d18f4b024f9ca153032a42993aa, type: 3}
+    unboughtAnnouncerKey: loc_unbought_pet_challenge
+  - key: 2
+    skeletonDataAsset: {fileID: 11400000, guid: 82ec5241607329f42ad59103ef0393e1,
+      type: 2}
+    idleFxKey: FxPetSmallDragonTailFireUi
+    idleFxKeyBoneName: fx_root_tail_flame
+    sprite: {fileID: 21300000, guid: 42e8f29ba62bf4f3eba3674ed16aeece, type: 3}
+    smallBarSprite: {fileID: 21300000, guid: 6f8809554a27f49b1a105b6e1eea4c69, type: 3}
+    unboughtAnnouncerKey: loc_unbought_pet_challenge
+  - key: 3
+    skeletonDataAsset: {fileID: 11400000, guid: 3773669c86057d64d9df8b78327347d3,
+      type: 2}
+    idleFxKey: 
+    idleFxKeyBoneName: 
+    sprite: {fileID: 21300000, guid: 1af86cdf8185e41efa5c41276701e5ea, type: 3}
+    smallBarSprite: {fileID: 21300000, guid: 6d0f86420a9a64d40ae217ff064d54f5, type: 3}
+    unboughtAnnouncerKey: loc_unbought_pet_challenge
+  - key: 4
+    skeletonDataAsset: {fileID: 11400000, guid: 7056510119969914fb75f2161c5ec3df,
+      type: 2}
+    idleFxKey: 
+    idleFxKeyBoneName: 
+    sprite: {fileID: 0}
+    smallBarSprite: {fileID: 0}
+    unboughtAnnouncerKey: loc_unbought_pet_tournament
+  - key: 5
+    skeletonDataAsset: {fileID: 11400000, guid: cc0cbd2261bc46a4aa6b7cb2622b7f41,
+      type: 2}
+    idleFxKey: 
+    idleFxKeyBoneName: 
+    sprite: {fileID: 0}
+    smallBarSprite: {fileID: 0}
+    unboughtAnnouncerKey: loc_unbought_pet_tournament
+  - key: 6
+    skeletonDataAsset: {fileID: 11400000, guid: c1b8c8c10ed537941b8a53b62ef1dfc0,
+      type: 2}
+    idleFxKey: 
+    idleFxKeyBoneName: 
+    sprite: {fileID: 0}
+    smallBarSprite: {fileID: 0}
+    unboughtAnnouncerKey: loc_unbought_pet_tournament
+  - key: 7
+    skeletonDataAsset: {fileID: 11400000, guid: 75fdf3eea04a229408c5adfc184d3a43,
+      type: 2}
+    idleFxKey: 
+    idleFxKeyBoneName: 
+    sprite: {fileID: 0}
+    smallBarSprite: {fileID: 0}
+    unboughtAnnouncerKey: loc_unbought_pet_more
+  petUnboughtAnnouncerPrefab: {fileID: 1013353731991781757, guid: c3f1ff3bf1d8c430b9c8a869c03022ad,
+    type: 3}
+  unboughtAnnouncerOffset: {x: 0, y: 46, z: 0}
+  unboughtAnnouncerData:
+    moveAnimation:
+      duration: 0.3
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {x: 0, y: 0, z: 0}
+      endValue: {x: 0, y: 46, z: 0}
+    alphaAnimation:
+      duration: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1.7333313
+          outSlope: 1.7333313
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.093235545
+        - serializedVersion: 3
+          time: 0.5
+          value: 1
+          inSlope: 1.365984
+          outSlope: -0.021245299
+          tangentMode: 1
+          weightedMode: 0
+          inWeight: 0.008029878
+          outWeight: 0.08590579
+        - serializedVersion: 3
+          time: 0.8
+          value: 1
+          inSlope: 0.020407211
+          outSlope: 0.020407211
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.08943379
+          outWeight: 0.33333334
+        - serializedVersion: 3
+          time: 1
+          value: 0
+          inSlope: -5.5150356
+          outSlope: -5.5150356
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0.103053756
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: 0
+      endValue: 1
+    scaleAnimation:
+      duration: 0.5
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      delay: 0
+      loop: 0
+      loopType: 0
+      shouldUseUnscaledDeltaTime: 0
+      beginValue: {x: 1, y: 1, z: 1}
+      endValue: {x: 1, y: 1, z: 1}
+  unboughtAnnouncerBackgroundSprite: {fileID: 21300000, guid: 3830bd90c781e49e5894227494f21f43,
+    type: 3}

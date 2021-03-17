@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828680fdf659c417c99a1d278f29e7ae, type: 3}
+  m_Name: LevelTargetSkinsSettings
+  m_EditorClassIdentifier: 
+  outlineShader: {fileID: 4800000, guid: 28b5cf4804845fe4b868531fd0bb81d5, type: 3}
+  outlineWidth: 16
+  outlineThreshold: 0.1
+  outlineSmoothness: 1
+  colorsData:
+  - key: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - key: 2
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - key: 3
+    color: {r: 1, g: 1, b: 1, a: 1}
+  bossColorsData:
+  - key: 1
+    color: {r: 1, g: 0.18396229, b: 0.20698868, a: 1}
+  - key: 2
+    color: {r: 0, g: 0, b: 1, a: 1}
+  - key: 3
+    color: {r: 0, g: 1, b: 0, a: 1}
+  skinsData:
+  - key: 1
+    skinName: Red
+  - key: 2
+    skinName: Blue
+  - key: 3
+    skinName: Green
+  materialsColorsData:
+  - key: {fileID: 11400000, guid: 123e81bd3b4bc4a5588f6bb0b9df49b2, type: 2}
+    originalMaterial: {fileID: 2100000, guid: f9feb8fa7f0574af1bd699fb59327424, type: 2}
+    outlineMaterial: {fileID: 2100000, guid: eed5e23555aba4386b1374da347bddd0, type: 2}
+  - key: {fileID: 11400000, guid: 3502e4ef67c2b407797b3782e562a212, type: 2}
+    originalMaterial: {fileID: 2100000, guid: baab1e2ffd42a1640a3674ae9241c759, type: 2}
+    outlineMaterial: {fileID: 2100000, guid: 58dd891eacfe444b3a590e638ee87aea, type: 2}
+  - key: {fileID: 11400000, guid: 2b95b74e933c44d61931f5774d923408, type: 2}
+    originalMaterial: {fileID: 2100000, guid: 0523dd941b1734706a1266bbb54014eb, type: 2}
+    outlineMaterial: {fileID: 2100000, guid: 716548313df6044abb8af223a00e093b, type: 2}
+  - key: {fileID: 11400000, guid: 90793a986213b1844888b50c88620126, type: 2}
+    originalMaterial: {fileID: 2100000, guid: d47a575391a612542bd6ea0520b8560e, type: 2}
+    outlineMaterial: {fileID: 2100000, guid: 2d0c018666b6347eb90a9ee7f0594625, type: 2}
+  - key: {fileID: 11400000, guid: 0007835360e6299478483fcf6cb89729, type: 2}
+    originalMaterial: {fileID: 2100000, guid: 7b0941d59ce21534e9ee7f4a31185cb3, type: 2}
+    outlineMaterial: {fileID: 2100000, guid: 79ea14a60fd5c4feca49d06137f0da84, type: 2}
+  outlineResetOnShotDelay: 0.3
+  skinWithBoundingBoxes: default
+  thresholdAnimation:
+    duration: 0.5
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 2
+        outSlope: 2
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    delay: 0
+    loop: 1
+    loopType: 1
+    shouldUseUnscaledDeltaTime: 0
+    beginValue: 0.1
+    endValue: 1

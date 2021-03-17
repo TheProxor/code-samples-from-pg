@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56e1fa20bc2824afd92e68da68d44031, type: 3}
+  m_Name: LLPrivacySettings
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 0
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  appID: 1531911267
+  developmentSecretKey: e4739540-90b6-4442-a044-73ec5d2fa6db
+  productionSecretKey: b3b923d3-69d1-421c-a2b5-3e968e3c1b61
+  termsOfUseUri: https://www.playgendary.com/terms_and_policy
+  secondsForSendDataOnServer: 10
+  publisherID: pub-2426838779592611
+  maxSecondsBeforeEeaLocationResponse: 2
+  additionalDelayBeforeFirstGDPRPopup: -1
+  androidSettings:
+    androidManifestElements: []
+    isUseStartGradleElements: 1
+    androidGradleElements: []
+  consentApiClassesNamesIncludingAssemblies:
+  - Modules.MoPub.LLMoPubManager, Modules.MoPub
+  - Modules.AppsFlyer.LLAppsFlyerManager, Modules.AppsFlyer

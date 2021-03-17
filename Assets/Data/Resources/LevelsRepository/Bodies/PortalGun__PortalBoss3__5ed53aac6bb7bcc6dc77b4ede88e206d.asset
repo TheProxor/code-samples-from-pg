@@ -1,0 +1,867 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e208343e007574da191fc0737cc0bb9e, type: 3}
+  m_Name: PortalGun__PortalBoss3__5ed53aac6bb7bcc6dc77b4ede88e206d
+  m_EditorClassIdentifier: 
+  data:
+    levelObjectsData:
+    - index: 21
+      position: {x: -6.7149944, y: -93.814995, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: '{"monolithPointsData":[{"pointIndex":0,"pointPosition":{"x":-100.485,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":1,"pointPosition":{"x":-40.1850052,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":2,"pointPosition":{"x":-40.1850052,"y":107.215,"z":0},"shapeTangentMode":0},{"pointIndex":3,"pointPosition":{"x":-13.4000034,"y":107.200005,"z":0},"shapeTangentMode":0},{"pointIndex":4,"pointPosition":{"x":-13.4000034,"y":93.8,"z":0},"shapeTangentMode":0},{"pointIndex":5,"pointPosition":{"x":-33.4999962,"y":93.8,"z":0},"shapeTangentMode":0},{"pointIndex":6,"pointPosition":{"x":-33.5,"y":87.1000061,"z":0},"shapeTangentMode":0},{"pointIndex":7,"pointPosition":{"x":-33.4999962,"y":7.62939453E-06,"z":0},"shapeTangentMode":0},{"pointIndex":8,"pointPosition":{"x":53.6,"y":7.62939453E-06,"z":0},"shapeTangentMode":0},{"pointIndex":9,"pointPosition":{"x":53.614994,"y":53.6149979,"z":0},"shapeTangentMode":0},{"pointIndex":10,"pointPosition":{"x":26.8149929,"y":53.6149979,"z":0},"shapeTangentMode":0},{"pointIndex":11,"pointPosition":{"x":26.8149929,"y":60.3149948,"z":0},"shapeTangentMode":0},{"pointIndex":12,"pointPosition":{"x":53.614994,"y":60.3149948,"z":0},"shapeTangentMode":0},{"pointIndex":13,"pointPosition":{"x":53.614994,"y":140.715,"z":0},"shapeTangentMode":0},{"pointIndex":14,"pointPosition":{"x":-6.68500471,"y":140.715,"z":0},"shapeTangentMode":0},{"pointIndex":15,"pointPosition":{"x":-6.68500471,"y":154.11499,"z":0},"shapeTangentMode":0},{"pointIndex":16,"pointPosition":{"x":33.51499,"y":154.11499,"z":0},"shapeTangentMode":0},{"pointIndex":17,"pointPosition":{"x":33.51499,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":18,"pointPosition":{"x":113.914993,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":19,"pointPosition":{"x":113.899994,"y":-46.8999939,"z":0},"shapeTangentMode":0},{"pointIndex":20,"pointPosition":{"x":-100.5,"y":-46.8999939,"z":0},"shapeTangentMode":0}],"isOpedEnded":false}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 0
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: -6.7149944, y: -93.814995, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"monolithPointsData":[{"pointIndex":0,"pointPosition":{"x":-100.485,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":1,"pointPosition":{"x":-40.1850052,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":2,"pointPosition":{"x":-40.1850052,"y":107.215,"z":0},"shapeTangentMode":0},{"pointIndex":3,"pointPosition":{"x":-13.4000034,"y":107.200005,"z":0},"shapeTangentMode":0},{"pointIndex":4,"pointPosition":{"x":-13.4000034,"y":93.8,"z":0},"shapeTangentMode":0},{"pointIndex":5,"pointPosition":{"x":-33.4999962,"y":93.8,"z":0},"shapeTangentMode":0},{"pointIndex":6,"pointPosition":{"x":-33.5,"y":87.1000061,"z":0},"shapeTangentMode":0},{"pointIndex":7,"pointPosition":{"x":-33.4999962,"y":7.62939453E-06,"z":0},"shapeTangentMode":0},{"pointIndex":8,"pointPosition":{"x":53.6,"y":7.62939453E-06,"z":0},"shapeTangentMode":0},{"pointIndex":9,"pointPosition":{"x":53.614994,"y":53.6149979,"z":0},"shapeTangentMode":0},{"pointIndex":10,"pointPosition":{"x":26.8149929,"y":53.6149979,"z":0},"shapeTangentMode":0},{"pointIndex":11,"pointPosition":{"x":26.8149929,"y":60.3149948,"z":0},"shapeTangentMode":0},{"pointIndex":12,"pointPosition":{"x":53.614994,"y":60.3149948,"z":0},"shapeTangentMode":0},{"pointIndex":13,"pointPosition":{"x":53.614994,"y":140.715,"z":0},"shapeTangentMode":0},{"pointIndex":14,"pointPosition":{"x":-6.68500471,"y":140.715,"z":0},"shapeTangentMode":0},{"pointIndex":15,"pointPosition":{"x":-6.68500471,"y":154.11499,"z":0},"shapeTangentMode":0},{"pointIndex":16,"pointPosition":{"x":33.51499,"y":154.11499,"z":0},"shapeTangentMode":0},{"pointIndex":17,"pointPosition":{"x":33.51499,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":18,"pointPosition":{"x":113.914993,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":19,"pointPosition":{"x":113.899994,"y":-46.8999939,"z":0},"shapeTangentMode":0},{"pointIndex":20,"pointPosition":{"x":-100.5,"y":-46.8999939,"z":0},"shapeTangentMode":0}],"isOpedEnded":false}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -6.7149944, y: -93.814995, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"monolithPointsData":[{"pointIndex":0,"pointPosition":{"x":-100.485,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":1,"pointPosition":{"x":-40.1850052,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":2,"pointPosition":{"x":-40.1850052,"y":107.215,"z":0},"shapeTangentMode":0},{"pointIndex":3,"pointPosition":{"x":-13.4000034,"y":107.200005,"z":0},"shapeTangentMode":0},{"pointIndex":4,"pointPosition":{"x":-13.4000034,"y":93.8,"z":0},"shapeTangentMode":0},{"pointIndex":5,"pointPosition":{"x":-33.4999962,"y":93.8,"z":0},"shapeTangentMode":0},{"pointIndex":6,"pointPosition":{"x":-33.5,"y":87.1000061,"z":0},"shapeTangentMode":0},{"pointIndex":7,"pointPosition":{"x":-33.4999962,"y":7.62939453E-06,"z":0},"shapeTangentMode":0},{"pointIndex":8,"pointPosition":{"x":53.6,"y":7.62939453E-06,"z":0},"shapeTangentMode":0},{"pointIndex":9,"pointPosition":{"x":53.614994,"y":53.6149979,"z":0},"shapeTangentMode":0},{"pointIndex":10,"pointPosition":{"x":26.8149929,"y":53.6149979,"z":0},"shapeTangentMode":0},{"pointIndex":11,"pointPosition":{"x":26.8149929,"y":60.3149948,"z":0},"shapeTangentMode":0},{"pointIndex":12,"pointPosition":{"x":53.614994,"y":60.3149948,"z":0},"shapeTangentMode":0},{"pointIndex":13,"pointPosition":{"x":53.614994,"y":140.715,"z":0},"shapeTangentMode":0},{"pointIndex":14,"pointPosition":{"x":-6.68500471,"y":140.715,"z":0},"shapeTangentMode":0},{"pointIndex":15,"pointPosition":{"x":-6.68500471,"y":154.11499,"z":0},"shapeTangentMode":0},{"pointIndex":16,"pointPosition":{"x":33.51499,"y":154.11499,"z":0},"shapeTangentMode":0},{"pointIndex":17,"pointPosition":{"x":33.51499,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":18,"pointPosition":{"x":113.914993,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":19,"pointPosition":{"x":113.899994,"y":-46.8999939,"z":0},"shapeTangentMode":0},{"pointIndex":20,"pointPosition":{"x":-100.5,"y":-46.8999939,"z":0},"shapeTangentMode":0}],"isOpedEnded":false}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -6.7149944, y: -93.814995, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"monolithPointsData":[{"pointIndex":0,"pointPosition":{"x":-100.485,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":1,"pointPosition":{"x":-40.1850052,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":2,"pointPosition":{"x":-40.1850052,"y":107.215,"z":0},"shapeTangentMode":0},{"pointIndex":3,"pointPosition":{"x":-13.4000034,"y":107.200005,"z":0},"shapeTangentMode":0},{"pointIndex":4,"pointPosition":{"x":-13.4000034,"y":93.8,"z":0},"shapeTangentMode":0},{"pointIndex":5,"pointPosition":{"x":-33.4999962,"y":93.8,"z":0},"shapeTangentMode":0},{"pointIndex":6,"pointPosition":{"x":-33.5,"y":87.1000061,"z":0},"shapeTangentMode":0},{"pointIndex":7,"pointPosition":{"x":-33.4999962,"y":7.62939453E-06,"z":0},"shapeTangentMode":0},{"pointIndex":8,"pointPosition":{"x":53.6,"y":7.62939453E-06,"z":0},"shapeTangentMode":0},{"pointIndex":9,"pointPosition":{"x":53.614994,"y":53.6149979,"z":0},"shapeTangentMode":0},{"pointIndex":10,"pointPosition":{"x":26.8149929,"y":53.6149979,"z":0},"shapeTangentMode":0},{"pointIndex":11,"pointPosition":{"x":26.8149929,"y":60.3149948,"z":0},"shapeTangentMode":0},{"pointIndex":12,"pointPosition":{"x":53.614994,"y":60.3149948,"z":0},"shapeTangentMode":0},{"pointIndex":13,"pointPosition":{"x":53.614994,"y":140.715,"z":0},"shapeTangentMode":0},{"pointIndex":14,"pointPosition":{"x":-6.68500471,"y":140.715,"z":0},"shapeTangentMode":0},{"pointIndex":15,"pointPosition":{"x":-6.68500471,"y":154.11499,"z":0},"shapeTangentMode":0},{"pointIndex":16,"pointPosition":{"x":33.51499,"y":154.11499,"z":0},"shapeTangentMode":0},{"pointIndex":17,"pointPosition":{"x":33.51499,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":18,"pointPosition":{"x":113.914993,"y":234.514984,"z":0},"shapeTangentMode":0},{"pointIndex":19,"pointPosition":{"x":113.899994,"y":-46.8999939,"z":0},"shapeTangentMode":0},{"pointIndex":20,"pointPosition":{"x":-100.5,"y":-46.8999939,"z":0},"shapeTangentMode":0}],"isOpedEnded":false}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 54
+      position: {x: -33.499996, y: -20.099998, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path:
+        - {x: -33.499996, y: -20.099998, z: 0}
+        - {x: -33.533264, y: -60.432384, z: 0}
+        delayBetweenPoints: 0
+        totalMoveDuration: 4
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: 
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 0
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: -33.499996, y: -20.099998, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path:
+          - {x: -33.499996, y: -20.099998, z: 0}
+          - {x: -33.533264, y: -60.432384, z: 0}
+          delayBetweenPoints: 0
+          totalMoveDuration: 4
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: 
+        isLinkedObjectsPart: 0
+      - isFreeFall: 1
+        comeVelocity: 0
+        position: {x: -33.499996, y: -20.099998, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path:
+          - {x: -33.499996, y: -20.099998, z: 0}
+          - {x: -33.533264, y: -60.432384, z: 0}
+          delayBetweenPoints: 0
+          totalMoveDuration: 4
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: 
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -33.499996, y: -20.099998, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path:
+          - {x: -33.499996, y: -20.099998, z: 0}
+          - {x: -33.533264, y: -60.432384, z: 0}
+          delayBetweenPoints: 0
+          totalMoveDuration: 4
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: 
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 0
+      position: {x: -26.33358, y: -93.799995, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: 
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 0
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: -26.33358, y: -93.799995, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: 
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -26.33358, y: -93.799995, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: 
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -26.33358, y: -93.799995, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: 
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 65
+      position: {x: -33.5, y: 13.664998, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: '{"skinIndex":0}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 0
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: -33.5, y: 13.664998, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"skinIndex":0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 33.5, y: -33.235, z: 0}
+        rotation: {x: 0, y: 180, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"skinIndex":0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -0.000000023748726, y: 60.300007, z: 0}
+        rotation: {x: 0, y: 180, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"skinIndex":0}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 17
+      position: {x: -6.6850004, y: 13.399998, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints:
+      - {x: 11.047047, y: 0.09508896, z: 0}
+      - {x: -10.490577, y: -0.17752743, z: 0}
+      additionalInfo: '{"spriteIndex":0,"width":0.0}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 0
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: -6.6850004, y: 13.399998, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints:
+        - {x: 11.047047, y: 0.09508896, z: 0}
+        - {x: -10.490577, y: -0.17752743, z: 0}
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 1
+        comeVelocity: 0
+        position: {x: -6.6850004, y: 13.399998, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -6.6850004, y: 13.399998, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 23
+      position: {x: -13.415001, y: 29.314999, z: 0}
+      rotation: {x: -0, y: -0, z: 90}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: '{"spriteIndex":1,"width":26.799999237060548}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 0
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: -13.415001, y: 29.314999, z: 0}
+        rotation: {x: -0, y: -0, z: 90}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":1,"width":26.799999237060548}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 1
+        comeVelocity: 0
+        position: {x: -13.415001, y: 29.314999, z: 0}
+        rotation: {x: -0, y: -0, z: 90}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":1,"width":26.799999237060548}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -13.415001, y: 29.314999, z: 0}
+        rotation: {x: -0, y: -0, z: 90}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":1,"width":26.799999237060548}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 28
+      position: {x: 0.0000016883013, y: 22.614996, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: '{"spriteIndex":0,"width":0.0}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 0
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: 0.0000016883013, y: 22.614996, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 1
+        comeVelocity: 0
+        position: {x: 0.0000016883013, y: 22.614996, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 0.0000016883013, y: 22.614996, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 15
+      position: {x: -0.01624775, y: -80.41, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: '{"spriteIndex":0,"width":0.0}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 1
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -0.01624775, y: -80.41, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 170
+        position: {x: -0.01624775, y: -80.41, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 1
+        comeVelocity: 0
+        position: {x: -0.01624775, y: -80.41, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 30
+      position: {x: 26.8, y: -87.1, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: '{"spriteIndex":0,"width":0.0}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 2
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 26.8, y: -87.1, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 26.8, y: -87.1, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: 26.8, y: -87.1, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 14
+      position: {x: 6.7, y: 20.099998, z: 0}
+      rotation: {x: -0, y: -0, z: 45.000004}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints:
+      - {x: 12.111337, y: 12.751694, z: 0}
+      - {x: -12.697821, y: -12.057469, z: 0}
+      additionalInfo: '{"spriteIndex":1,"width":0.0}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 2
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 6.7, y: 20.099998, z: 0}
+        rotation: {x: -0, y: -0, z: 45.000004}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints:
+        - {x: 12.111337, y: 12.751694, z: 0}
+        - {x: -12.697821, y: -12.057469, z: 0}
+        additionalInfo: '{"spriteIndex":1,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 6.7, y: 20.099998, z: 0}
+        rotation: {x: -0, y: -0, z: 45.000004}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints:
+        - {x: 12.111337, y: 12.751694, z: 0}
+        - {x: -12.697821, y: -12.057469, z: 0}
+        additionalInfo: '{"spriteIndex":1,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 170
+        position: {x: 6.7, y: 20.099998, z: 0}
+        rotation: {x: -0, y: -0, z: 45.000004}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints:
+        - {x: 12.111337, y: 12.751694, z: 0}
+        - {x: -12.697821, y: -12.057469, z: 0}
+        additionalInfo: '{"spriteIndex":1,"width":0.0}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 22
+      position: {x: 20.100002, y: 73.700005, z: 0}
+      rotation: {x: -0, y: -0, z: 90}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: '{"spriteIndex":0,"width":26.799999237060548}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 2
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 20.100002, y: 73.700005, z: 0}
+        rotation: {x: -0, y: -0, z: 90}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":26.799999237060548}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 20.100002, y: 73.700005, z: 0}
+        rotation: {x: -0, y: -0, z: 90}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":26.799999237060548}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 150
+        position: {x: 20.100002, y: 73.700005, z: 0}
+        rotation: {x: -0, y: -0, z: 90}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":26.799999237060548}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 29
+      position: {x: -33.5, y: 26.8, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: '{"spriteIndex":0,"width":0.0}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 2
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -33.5, y: 26.8, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -33.5, y: 26.8, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: -33.5, y: 26.8, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 29
+      position: {x: -33.5, y: 53.6, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: '{"spriteIndex":0,"width":0.0}'
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 2
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -33.5, y: 53.6, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: -33.5, y: 53.6, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: -33.5, y: 53.6, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: '{"spriteIndex":0,"width":0.0}'
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    - index: 42
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -0, y: 0, z: 0}
+      isLockZ: 1
+      moveSettings:
+        path: []
+        delayBetweenPoints: 0
+        totalMoveDuration: 0
+        isCycled: 0
+      jointsPoints: []
+      additionalInfo: 
+      colorsInfo: 
+      isLinkedObjectsPart: 0
+      createdStageIndex: 0
+      shouldPlayEffectsOnPush: 0
+      stageData:
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: 
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 200
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: 
+        isLinkedObjectsPart: 0
+      - isFreeFall: 0
+        comeVelocity: 0
+        position: {x: 0, y: 0, z: 0}
+        rotation: {x: -0, y: 0, z: 0}
+        moveSettings:
+          path: []
+          delayBetweenPoints: 0
+          totalMoveDuration: 0
+          isCycled: 0
+        jointsPoints: []
+        additionalInfo: 
+        isLinkedObjectsPart: 0
+      bonusData:
+        stageIndex: 0
+        linearVelocity: {x: 0, y: 0}
+        angularVelocity: 0
+        acceleration: 0
+        currencyType: 0
+        currencyAmount: 0
+    linkerData:
+      links:
+      - mainObject: 1
+        linkedObjects: 00000000
+    pathDistance: 0

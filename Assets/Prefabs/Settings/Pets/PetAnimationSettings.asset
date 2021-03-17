@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbec047cda2e4b1d8b96564f58ee61a, type: 3}
+  m_Name: PetAnimationSettings
+  m_EditorClassIdentifier: 
+  dataAsset: {fileID: 11400000, guid: bd7bb5a8cec964ff286639536aa4e93e, type: 2}
+  animations:
+  - type: 3
+    tapReactionAnimationNames:
+    - tap
+    - tap_alt
+    tapReactionSleepAnimationNames: []
+    fxInOutBoneName: fx_root_in_out
+    fxMagicBoneName: fx_root_in_out
+  - type: 1
+    tapReactionAnimationNames:
+    - tap
+    - tap_alt
+    tapReactionSleepAnimationNames: []
+    fxInOutBoneName: fx_root_in_out
+    fxMagicBoneName: fx_root_MagicCloud
+  - type: 2
+    tapReactionAnimationNames:
+    - tap
+    - tap_alt
+    tapReactionSleepAnimationNames: []
+    fxInOutBoneName: fx_root_in_out
+    fxMagicBoneName: FxMagic
+  - type: 4
+    tapReactionAnimationNames:
+    - tap_blink
+    - tap_laugh
+    tapReactionSleepAnimationNames: []
+    fxInOutBoneName: fx_root_in_out
+    fxMagicBoneName: fx_root_in_out
+  - type: 5
+    tapReactionAnimationNames:
+    - tap
+    - tap_alt
+    tapReactionSleepAnimationNames: []
+    fxInOutBoneName: fx_root_in_out
+    fxMagicBoneName: fx_root_in_out
+  - type: 6
+    tapReactionAnimationNames:
+    - tap
+    - tap_alt
+    tapReactionSleepAnimationNames: []
+    fxInOutBoneName: fx_root_in_out
+    fxMagicBoneName: fx_root_in_out
+  - type: 7
+    tapReactionAnimationNames:
+    - tap
+    - tap_alt
+    tapReactionSleepAnimationNames:
+    - wake_up_bounce_alt
+    fxInOutBoneName: fx_root_in_out
+    fxMagicBoneName: fx_root_in_out
+  ingameTrackEnd: 0
+  moveAnimationKey: idle_fast
+  showOnSceneAnimationDelay: 0
+  showOnLevelAnimationDelay: 0
+  hideIdleName: off
+  idleName: idle
+  appearanceNames:
+  - in
+  disappearNames:
+  - out
+  mainMenuNames:
+  - in
+  ingameNames:
+  - out
+  forcemeterNames:
+  - dynamometer_hit
+  storeNames:
+  - lottery_win
+  premiumStoreNames:
+  - shop_purchase
+  shootAnimationNames:
+  - attack
+  moveTypeData:
+  - moveType: 0
+    moveAnimationNames:
+    - idle_slow
+  - moveType: 1
+    moveAnimationNames:
+    - move
+  emotionsAnimationNames:
+  - action
+  emotionsAnimationsDelay: 2
+  sleepStartAnimationName: fall_asleep
+  canPlaySleepStartPetsSkins: 07000000
+  sleepIdleAnimationName: sleep
+  wakeUpAnimationName: wake_up
+  ingameWinAnimationNames:
+  - win
